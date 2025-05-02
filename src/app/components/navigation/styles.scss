@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Quicksand:wght@300..700&family=Yesteryear&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Asegura que el body ocupe todo el viewport */
+}
+
+nav {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+
+  ul {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: rgb(255, 255, 255);
+  }
+}
+
+.mainBox {
+  background-image: url("/ouarzazate.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.link {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra negra suave */
+  text-transform: uppercase;
+  font-size: medium;
+  letter-spacing: 2px;
+}
+
+.social {
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5)); /* Sombra negra suave */
+}
+.mainText {
+  font-family: "Cal Sans", sans-serif;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5)); /* Sombra negra suave */
+  color: #471919;
+  letter-spacing: 2px;
+}
