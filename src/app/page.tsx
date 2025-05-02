@@ -12,7 +12,7 @@ export default function Home() {
             los diversos paisajes y la vibrante cultura de Marruecos con
             nuestros tours cuidadosamente diseñados.
           </p>
-          <p className="text-lg font-semibold text-gray-800 leading-relaxed mt-4">
+          <p className="text-lg font-semibold text-gray-800 leading-relaxed mt-4 mainText2">
             ¡Viaja con nosotros y siente Marruecos como nunca antes!
           </p>
         </div>

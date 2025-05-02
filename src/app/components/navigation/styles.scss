@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Quicksand:wght@300..700&family=Yesteryear&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Cal+Sans&family=Quicksand:wght@300..700&family=Yesteryear&display=swap");
 
 html,
 body {
@@ -52,5 +52,14 @@ nav {
   font-family: "Cal Sans", sans-serif;
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5)); /* Sombra negra suave */
   color: #471919;
+  letter-spacing: 2px;
+}
+
+.mainText2 {
+  font-family: "Bonheur Royale", cursive;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5)); /* Sombra negra suave */
+  color: #471919;
+  font-size: xx-large;
+  font-weight: lighter;
   letter-spacing: 2px;
 }
