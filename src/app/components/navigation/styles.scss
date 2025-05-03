@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Cal+Sans&family=Quicksand:wght@300..700&family=Yesteryear&display=swap");
 
 html,
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%; /* Asegura que el body ocupe todo el viewport */
-}
+// body {
+//   margin: 0;
+//   padding: 0;
+//   height: 100%; /* Asegura que el body ocupe todo el viewport */
+// }
 
 nav {
   font-family: "Quicksand", sans-serif;
@@ -38,11 +38,22 @@ nav {
   z-index: 1;
 }
 
+.menu-item {
+  display: flex;
+  align-items: center;
+  border-right: 2px solid #ccc;
+  padding-right: 10px;
+  height: 6vh;
+  margin-left: -22px;
+}
+
+
 .link {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra negra suave */
   text-transform: uppercase;
   font-size: medium;
   letter-spacing: 2px;
+  position: relative;
 }
 
 .social {
@@ -52,14 +63,14 @@ nav {
   font-family: "Cal Sans", sans-serif;
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5)); /* Sombra negra suave */
   color: #471919;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 
 .mainText2 {
   font-family: "Bonheur Royale", cursive;
-  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5)); /* Sombra negra suave */
+  filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.5)); /* Sombra negra suave */
   color: #471919;
-  font-size: xx-large;
+  font-size: xxx-large;
   font-weight: lighter;
   letter-spacing: 2px;
 }

@@ -11,7 +11,7 @@ export default function RootLayout({
     <html lang="en">
       <body
       >
-        <Header alwaysVisible={true}/>
+        <Header/>
         {children}
       </body>
     </html>
