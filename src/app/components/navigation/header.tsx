@@ -32,7 +32,7 @@ const Header = ({}) => {
                 Excursiones
               </Link>
             </li>
-            <li>
+            <li className="menu-item">
               <Link className="link" href="/contact">
                 A medida
               </Link>
@@ -57,7 +57,7 @@ const Header = ({}) => {
                 Sobre nosotros
               </Link>
             </li>
-            <li style={{ marginLeft: "-22px" }}>
+            <li className="menu-item">
               <Link className="link" href="/contact">
                 Contacto
               </Link>
