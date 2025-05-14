@@ -1,5 +1,7 @@
 "use client"
 import { motion } from "framer-motion";
+import './mainStyles.scss';
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -33,6 +35,9 @@ export default function Home() {
             ¡Viaja con nosotros y siente Marruecos como nunca antes!
           </motion.p>
         </motion.div>
+        <div className="buttonDown">
+          <Image src="/btn-down.svg" alt="button down" width={50} height={30}></Image>
+        </div>
       </div>
     </>
   );

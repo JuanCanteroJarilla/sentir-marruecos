@@ -12,8 +12,6 @@
   src: url("/fonts/BonheurRoyale-Regular.ttf") format("truetype");
 }
 
-
-
 nav {
   font-family: "Quicksand", sans-serif;
   font-weight: 400;
@@ -56,7 +54,7 @@ nav {
 
 .menu-item:last-child {
   border-right: none;
-  top:5vh; /* Elimina el separador del último elemento */
+  top: 5vh; /* Elimina el separador del último elemento */
 }
 
 .link {
@@ -84,4 +82,15 @@ nav {
   font-size: xxx-large;
   font-weight: lighter;
   letter-spacing: 2px;
+}
+
+.social-links {
+  // margin-top: -2rem;
+  border-radius: 16px;
+
+  justify-content: center;
+
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 0.5rem;
+  box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.1);
 }

@@ -66,7 +66,7 @@ const Header = ({}) => {
         </div>
 
         {/* Menú de redes sociales a la derecha */}
-        <div className="social-links" style={{ marginTop: "-2rem" }}>
+        <div className="social-links">
           <ul className="flex list-none gap-4">
             <li>
               <Link className="social" href="">
