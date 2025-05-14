@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.scss";
 import Link from "next/link";
-import { FaInstagram } from "react-icons/fa";
+import { FaInstagram, FaChevronDown } from "react-icons/fa";
 import { RiFacebookCircleLine } from "react-icons/ri";
 
 import { BsTwitterX } from "react-icons/bs";
@@ -23,9 +23,37 @@ const Header = ({}) => {
               </Link>
             </li>
             <li className="menu-item">
-              <Link className="link" href="/services">
-                Agafay
-              </Link>
+              <p className="link flex items-center gap-2">
+                Actividades <FaChevronDown className="text-sm" />
+              </p>
+              {/* Dropdown */}
+              <ul className="dropdown-menu absolute hidden group-hover:block bg-white shadow-lg rounded-md mt-2 p-2">
+                <li className="dropdown-item">
+                  <Link className="link" href="/services/camel-ride" style={{ color: "#471919" }}>
+                    Alquiler de quads/buggies
+                  </Link>
+                </li>
+                <li className="dropdown-item">
+                  <Link className="link" href="/services/dinner" style={{ color: "#471919" }}>
+                    Paseo en dromedario
+                  </Link>
+                </li>
+                <li className="dropdown-item">
+                  <Link className="link" href="/services/quad" style={{ color: "#471919" }}>
+                    Globo aerostático
+                  </Link>
+                </li>
+                <li className="dropdown-item">
+                  <Link className="link" href="/services/quad" style={{ color: "#471919" }}>
+                    Hammamm tradicional marroquí
+                  </Link>
+                </li>
+                <li className="dropdown-item">
+                  <Link className="link" href="/services/quad" style={{ color: "#471919" }}>
+                    Visitas guiadas
+                  </Link>
+                </li>
+              </ul>
             </li>
             <li className="menu-item">
               <Link className="link" href="/contact">
