@@ -11,6 +11,7 @@ export default function Home() {
     const sections = Array.from(document.querySelectorAll("section"));
 
     const handleScroll = (event) => {
+      event.preventDefault(); // Evita el scroll nativo
       if (isScrolling.current) return; // Evitar múltiples activaciones
       isScrolling.current = true;
 
@@ -91,8 +92,8 @@ export default function Home() {
         </div>
       </section>
       <section id="rutasMarruecos" style={{ height: "100vh" }}>
-        {/* <DivRutas /> */}
-        <h2>Primera Sección</h2>
+        <DivRutas />
+        {/* <h2>Primera Sección</h2> */}
       </section>
       <section
         id="otraSeccion"

@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("/fonts/Quicksand-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cal Sans";
+  src: url("/fonts/CalSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Bonheur Royale";
+  src: url("/fonts/BonheurRoyale-Regular.ttf") format("truetype");
+}
+
+.tituloRutas {
+  font-family: "Bonheur Royale", sans-serif;
+  font-weight: 400;
+  font-size: 3.5rem;
+  color: #471919;
+  text-align: center;
+  margin-top: 20px;
+  filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.5)); /* Sombra negra suave */
+}

@@ -1,7 +1,38 @@
+import './styles.scss'
+
 function DivRutas() {
   return (
     <>
-      <div className="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12"></div>
+      <div className="flex justify-center items-center pt-40 tituloRutas">
+        <p>Rutas desde Marrakech</p>
+      </div>
+      <div className="relative max-w-sm rounded overflow-hidden shadow-lg">
+        <img
+          src="/images/arquitectura-desierto2.jpg"
+          alt="Rutas Marruecos"
+          className=" w-full rounded-md"
+        >
+        </img>
+        <div className="px-6 py-4">
+          <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+          <p className="text-gray-700 text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatibus quia, nulla! Maiores et perferendis eaque,
+            exercitationem praesentium nihil.
+          </p>
+        </div>
+        <div className="px-6 pt-4 pb-2">
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #photography
+          </span>
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #travel
+          </span>
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #winter
+          </span>
+        </div>
+      </div>
     </>
   );
 }
