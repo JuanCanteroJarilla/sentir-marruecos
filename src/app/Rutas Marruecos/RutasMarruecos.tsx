@@ -10,7 +10,7 @@ function DivRutas() {
         <img
           src="/images/arquitectura-desierto2.jpg"
           alt="Rutas Marruecos"
-          className=" w-full rounded-md"
+          className=" w-full rounded-md hover:opacity-35 cursor-pointer transition duration-300 ease-in-out"
         >
         </img>
         <div className="px-6 py-4">

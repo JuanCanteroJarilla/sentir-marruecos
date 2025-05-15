@@ -10,7 +10,7 @@ export default function Home() {
   useEffect(() => {
     const sections = Array.from(document.querySelectorAll("section"));
 
-    const handleScroll = (event) => {
+    const handleScroll = (event: WheelEvent) => {
       event.preventDefault(); // Evita el scroll nativo
       if (isScrolling.current) return; // Evitar múltiples activaciones
       isScrolling.current = true;
