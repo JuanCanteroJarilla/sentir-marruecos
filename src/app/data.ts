@@ -1,39 +1,53 @@
+import { img } from "framer-motion/client";
 
-
-export const data = [{
-    id:1,
-    title:"Ciudades Imperiales",
-    location:"Marrakech",
+export const data = [
+  {
+    id: 1,
+    img: "/images/arquitectura-desierto2.jpg",
+    title: "Ciudades Imperiales",
+    location: "Marrakech",
     days: "8",
-},{
-    id:2,
-    title:"Desierto y Essaouira",
-    location:"Marrakech",
+  },
+  {
+    id: 2,
+    img: "/images/essaouira4.jpg",
+    title: "Desierto y Essaouira",
+    location: "Marrakech",
     days: "7",
-},{
-    id:3,
-    title:"Desierto nómada y Ouarzazate",
-    location:"Errachidia, Marrakech, Ouarzazate",
+  },
+  {
+    id: 3,
+    img: "/images/ouarzazat-2048x1516.jpg",
+    title: "Desierto nómada y Ouarzazate",
+    location: "Errachidia, Marrakech, Ouarzazate",
     days: "6",
-},{
-    id:4,
-    title:"Marrakech y playas",
-    location:"Marrakech",
-    days: "5"    
-},{
-    id:5,
-    title:"Marrakech y desierto",
-    location:"Marrakech",
-    days: "3" 
-
-},{
-    id:6,
-    title:"Desierto de Zagora",
-    location:"Marrakech, Ouarzazate",
-    days: "2" 
-},{
-    id:7,
-    title:"Marrakech y desierto nómada",
-    location:"Fez,Marrakech",
-    days: "4" 
-}]
+  },
+  {
+    id: 4,
+    img: "/images/88-2048x1152.jpg",
+    title: "Marrakech y playas",
+    location: "Marrakech",
+    days: "5",
+  },
+  {
+    id: 5,
+    img: "/images/Marrakech_Jemaa-el-Fna.jpg",
+    title: "Marrakech y desierto",
+    location: "Marrakech",
+    days: "3",
+  },
+  {
+    id: 6,
+    img: "/images/desierto-zagora.jpg",
+    title: "Desierto de Zagora",
+    location: "Marrakech, Ouarzazate",
+    days: "2",
+  },
+  {
+    id: 7,
+     img: "/images/nomada_marrakech.jpg",
+    title: "Marrakech y desierto nómada",
+    location: "Fez,Marrakech",
+    days: "4",
+  },
+];

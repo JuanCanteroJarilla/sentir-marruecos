@@ -21,3 +21,21 @@
   margin-top: 20px;
   filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.5)); /* Sombra negra suave */
 }
+
+.reserveText {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #471919;
+  text-align: center;
+  filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.5)); /* Sombra negra suave */
+  text-transform: uppercase;
+  text-decoration-color: #471919;
+  text-decoration-thickness: 2px;
+  text-decoration-style: solid;
+}
+
+.titleText {
+  font-family: "Cal Sans", sans-serif;
+  font-size: 1.5rem;
+}
