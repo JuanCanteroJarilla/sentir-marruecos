@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import "./mainStyles.scss";
 import Image from "next/image";
-import DivRutas from "./Rutas Marruecos/RutasMarruecos";
+import CardRutas from "./Rutas Marruecos/RutasMarruecos";
 export default function Home() {
   const isScrolling = useRef(false); // Para evitar múltiples activaciones
 
@@ -92,8 +92,7 @@ export default function Home() {
         </div>
       </section>
       <section id="rutasMarruecos" style={{ height: "100vh" }}>
-        <DivRutas />
-        {/* <h2>Primera Sección</h2> */}
+        <CardRutas place={"prueba"}/>
       </section>
       <section
         id="otraSeccion"

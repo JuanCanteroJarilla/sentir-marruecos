@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("/fonts/Quicksand-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cal Sans";
+  src: url("/fonts/CalSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Bonheur Royale";
+  src: url("/fonts/BonheurRoyale-Regular.ttf") format("truetype");
+}
+
+html,body{
+  scroll-behavior: smooth;
+}
+
+nav {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+
+  ul {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: rgb(255, 255, 255);
+  }
+}
+
+.mainBox {
+  background-image: url("/ouarzazate.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  border-right: 2px solid #ccc;
+  padding-right: 10px;
+  height: 6vh;
+  margin-left: -10px;
+}
+
+.menu-item:last-child {
+  border-right: none;
+}
+
+.link {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra negra suave */
+  text-transform: uppercase;
+  font-size: medium;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.social {
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5)); /* Sombra negra suave */
+}
+.mainText {
+  font-family: "Cal Sans", sans-serif;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5)); /* Sombra negra suave */
+  color: #471919;
+  letter-spacing: 3px;
+}
+
+.mainText2 {
+  font-family: "Bonheur Royale", cursive;
+  filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.5)); /* Sombra negra suave */
+  color: #471919;
+  font-size: xxx-large;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.social-links {
+  margin-top: -3rem;
+  border-radius: 16px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 0.5rem;
+  box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+  position: relative;
+
+  .dropdown-menu {
+    position: absolute;
+    top: 78%; /* Aparece debajo del elemento */
+    left: 0;
+    background-color: rgba(255, 255, 255);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 0.5rem 0;
+    z-index: 10;
+    display: none; /* Oculto por defecto */
+  }
+
+  .dropdown-item {
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+
+    &:hover {
+      background-color: #9c9999;
+    }
+  }
+
+  /* Mantener el menú abierto mientras el cursor esté sobre el menú o el elemento padre */
+  &:hover .dropdown-menu,
+  .dropdown-menu:hover {
+    display: block;
+  }
+}

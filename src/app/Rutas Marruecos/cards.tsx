@@ -1,5 +1,6 @@
 import "./styles.scss";
 import { FaMapMarkerAlt, FaRegCalendarAlt } from "react-icons/fa";
+import Image from "next/image";
 type CardProps = {
   data: {
     title: string;
@@ -7,17 +8,20 @@ type CardProps = {
     location: string;
     days: string;
   };
+  place: string;
 };
-function Cards({ data }: CardProps) {
+function Cards({ data, place }: CardProps) {
   const { title, img, location, days } = data;
   return (
     <>
       <div className="relative max-w-sm rounded overflow-hidden shadow-lg gap-4 m-4">
         <div className="relative group">
-          <img
+          <Image
             src={img}
-            alt="Rutas Marruecos"
-            className="w-full rounded-md group-hover:opacity-35 cursor-pointer transition duration-300 ease-in-out"
+            alt={`Rutas '${place}'`}
+            width={400}           // Ajusta el ancho según tu diseño
+            height={250}          // Ajusta el alto según tu diseño
+            className="w-full rounded-md group-hover:opacity-35 cursor-pointer transition duration-300 ease-in-out object-cover"
           />
           <button className="reserveText absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white font-semibold cursor-pointer">
             Reserve ahora
