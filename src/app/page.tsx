@@ -89,7 +89,7 @@ export default function Home() {
         id="otraSeccion"
         style={{ height: "100vh", backgroundColor: "#f0f0f0" }}
       >
-        <h2>Otra Sección</h2>
+        {/* <h2>Otra Sección</h2> */}
       </section>
     </>
   );
