@@ -2,8 +2,7 @@
 import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import "./mainStyles.scss";
-import Image from "next/image";
-import CardRutas from "./Rutas Marruecos/RutasMarruecos";
+
 export default function Home() {
   const isScrolling = useRef(false); // Para evitar múltiples activaciones
 
@@ -81,18 +80,10 @@ export default function Home() {
               ¡Viaja con nosotros y siente Marruecos como nunca antes!
             </motion.p>
           </motion.div>
-          <div className="buttonDown">
-            <Image
-              src="/btn-down.svg"
-              alt="button down"
-              width={50}
-              height={30}
-            ></Image>
-          </div>
         </div>
       </section>
       <section id="rutasMarruecos" style={{ height: "100vh" }}>
-        <CardRutas place={"prueba"}/>
+        {/* <CardRutas /> */}
       </section>
       <section
         id="otraSeccion"

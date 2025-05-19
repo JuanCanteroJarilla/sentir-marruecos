@@ -8,9 +8,8 @@ type CardProps = {
     location: string;
     days: string;
   };
-  place: string;
 };
-function Cards({ data, place }: CardProps) {
+function Cards({ data }: CardProps) {
   const { title, img, location, days } = data;
   return (
     <>
@@ -18,9 +17,9 @@ function Cards({ data, place }: CardProps) {
         <div className="relative group">
           <Image
             src={img}
-            alt={`Rutas '${place}'`}
-            width={400}           // Ajusta el ancho según tu diseño
-            height={250}          // Ajusta el alto según tu diseño
+            alt={`Rutas`}
+            width={400} // Ajusta el ancho según tu diseño
+            height={250} // Ajusta el alto según tu diseño
             className="w-full rounded-md group-hover:opacity-35 cursor-pointer transition duration-300 ease-in-out object-cover"
           />
           <button className="reserveText absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white font-semibold cursor-pointer">

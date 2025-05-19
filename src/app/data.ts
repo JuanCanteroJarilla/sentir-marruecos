@@ -1,5 +1,5 @@
 export const data = {
-  Marruecos: [
+  Marrakech: [
     {
       id: 1,
       img: "/images/arquitectura-desierto2.jpg",

@@ -1,18 +1,22 @@
+"use client";
 import "./styles.scss";
 import Cards from "./cards";
 import { data } from "../data";
-type PlaceType = keyof typeof data;
+import useStore from "../store";
 
-function CardRutas({ place }: { place: PlaceType }) {
-  const rutas = data["Ouarzazate"] || [];
+type RutaKey = keyof typeof data;
+
+function CardRutas({}) {
+  const ruta = useStore((state) => state.ruta) as RutaKey;
+  const rutas = data[ruta] || [];
   return (
     <>
       <div className="flex justify-center items-center pt-40 tituloRutas">
-        <p>Rutas desde {place}</p>
+        <p>Rutas desde {ruta}</p>
       </div>
       <div className="flex flex-wrap justify-center">
         {rutas.map((item) => (
-          <Cards key={item.id} data={item} place={place}/>
+          <Cards key={item.id} data={item} />
         ))}
       </div>
     </>
