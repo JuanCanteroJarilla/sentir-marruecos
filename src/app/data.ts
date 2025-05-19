@@ -53,7 +53,7 @@ export const data = {
   Ouarzazate: [
     {
       id: 8,
-      img: "/images/marra-1.jpg",
+      img: "/images/desierto-zagora.jpg",
       title: "Desierto de Zagora",
       location: "Marrakech,Ouarzazate",
       days: "2",
@@ -72,6 +72,54 @@ export const data = {
       img: "/images/ouarzazat-2048x1516.jpg",
       title: "Desierto nómada y Ouarzazate",
       location: "Errachidia, Marrakech, Ouarzazate",
+      days: "6",
+    },
+  ],
+  Fez: [
+    {
+      id: 11,
+      img: "/images/essaouira4.jpg",
+      title: "Chefchaouen, Fez y Desierto nómada",
+      location: "Fez, Tanger",
+      days: "6",
+    },
+    {
+      id: 12,
+      img: "/images/midelt.jpg",
+      title: "Midelt y Desierto nómada",
+      location: "Fez",
+      days: "5",
+    },
+    {
+      id: 13,
+      img: "/images/nomada_marrakech.jpg",
+      title: "Desierto nómada y Marrakech",
+      location: "Fez, Marrakech",
+      days: "4",
+    },
+    {
+      id: 14,
+      img: "/images/licensed-image-1.jpg",
+      title: "Fez y Desierto nómada",
+      location: "Fez",
+      days: "3",
+    },
+  ],
+  Casablanca: [
+    {
+      id: 15,
+      img: "/images/Entrada-a-la-Mezquita-Hassan-II-con-visita-guiada-en-Casablanca.jpg",
+      title: "Marruecos al completo",
+      location: "Casablanca",
+      days: "16",
+    },
+  ],
+  Tanger: [
+    {
+      id: 11,
+      img: "/images/essaouira4.jpg",
+      title: "Chefchaouen, Fez y Desierto nómada",
+      location: "Fez, Tanger",
       days: "6",
     },
   ],
