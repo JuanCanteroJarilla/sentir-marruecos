@@ -11,7 +11,6 @@ import { usePathname } from "next/navigation";
 
 const Header = ({}) => {
   const pathname = usePathname();
-  console.log(pathname);
   const navTextColor = pathname === "/" ? "text-white" : "text-[#471919]";
   const rutas = [
     "Marrakech",

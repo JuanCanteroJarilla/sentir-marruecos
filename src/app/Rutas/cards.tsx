@@ -1,6 +1,7 @@
 import "./styles.scss";
 import { FaMapMarkerAlt, FaRegCalendarAlt } from "react-icons/fa";
 import Image from "next/image";
+import useStore from "../store";
 type CardProps = {
   data: {
     title: string;
@@ -10,21 +11,29 @@ type CardProps = {
   };
 };
 function Cards({ data }: CardProps) {
+  const { setRuteLocation } = useStore();
+  const handleSetRuteLocation = (option: string) => {
+    console.log(option);
+    setRuteLocation(option);
+  }
   const { title, img, location, days } = data;
+
   return (
     <>
       <div className="relative max-w-sm rounded overflow-hidden shadow-lg gap-4 m-4">
         <div className="relative group">
-          <Image
-            src={img}
-            alt={`Rutas`}
-            width={400} // Ajusta el ancho según tu diseño
-            height={250} // Ajusta el alto según tu diseño
-            className="w-full rounded-md group-hover:opacity-35 cursor-pointer transition duration-300 ease-in-out object-cover"
-          />
-          <button className="reserveText absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white font-semibold cursor-pointer">
-            Reserve ahora
-          </button>
+          <a href={`/Rutas/${title.toLowerCase()}`} onClick={() => {handleSetRuteLocation(title)}}>
+            <Image
+              src={img}
+              alt={`Rutas`}
+              width={400} // Ajusta el ancho según tu diseño
+              height={250} // Ajusta el alto según tu diseño
+              className="w-full rounded-md group-hover:opacity-35 cursor-pointer transition duration-300 ease-in-out object-cover"
+            />
+            <button className="reserveText absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white font-semibold cursor-pointer">
+              Reserve ahora
+            </button>
+          </a>
         </div>
         <div className="px-6 py-4">
           <div className="mb-2 titleText">{title}</div>
