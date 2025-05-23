@@ -1,7 +1,7 @@
 import "./styles.scss";
 import { FaMapMarkerAlt, FaRegCalendarAlt } from "react-icons/fa";
 import Image from "next/image";
-import useStore from "../store";
+
 type CardProps = {
   data: {
     title: string;
@@ -11,18 +11,13 @@ type CardProps = {
   };
 };
 function Cards({ data }: CardProps) {
-  const { setRuteLocation } = useStore();
-  const handleSetRuteLocation = (option: string) => {
-    console.log(option);
-    setRuteLocation(option);
-  }
   const { title, img, location, days } = data;
 
   return (
     <>
       <div className="relative max-w-sm rounded overflow-hidden shadow-lg gap-4 m-4">
         <div className="relative group">
-          <a href={`/Rutas/${title.toLowerCase()}`} onClick={() => {handleSetRuteLocation(title)}}>
+          <a href={`/Rutas/${title.toLowerCase()}`}>
             <Image
               src={img}
               alt={`Rutas`}

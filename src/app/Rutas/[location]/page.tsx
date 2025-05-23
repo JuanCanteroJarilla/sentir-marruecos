@@ -1,19 +1,15 @@
-"use client";
-import useStore from "@/app/store";
-import { useParams } from "next/navigation";
-export default function Ruta() {
-  const ruta = useStore((state) => state.ruteLocation);
-  const params = useParams();
-  const locationParam = params.location as string;
+import "./styles.scss";
+import getRuta from "./getData";
+import RutaCliente from "../RutasClient";
 
-  // Usa el estado si existe, si no, usa el parámetro de la URL
-  const mostrarRuta = ruta || decodeURIComponent(locationParam);
+export default async function Ruta({ params }: { params: { location: string } }) {
+  const locationParam = params.location;
+  const response = await getRuta();
 
   return (
     <>
-      <div className="flex justify-center items-center pt-40 tituloRutas">
-        <p>{mostrarRuta}</p>
-      </div>
+      <div className="mainDiv"></div>
+      <RutaCliente response={response} locationParam={locationParam} />
     </>
   );
 }
