@@ -10,7 +10,7 @@ export default async function getRuta() {
   );
 
   const data = await res.json();
-  console.log(data);
+
   const tour = data.data[0];
 
   return tour;
