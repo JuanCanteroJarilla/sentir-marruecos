@@ -6,7 +6,7 @@ import Image from "next/image";
 import { FaInstagram, FaChevronDown } from "react-icons/fa";
 import { RiFacebookCircleLine } from "react-icons/ri";
 import { BsTwitterX } from "react-icons/bs";
-import useStore from "@/app/store";
+// import useStore from "@/app/store";
 import { usePathname } from "next/navigation";
 
 const Header = ({}) => {
@@ -20,11 +20,7 @@ const Header = ({}) => {
     "Casablanca",
     "Tanger",
   ];
-  const { setRuta } = useStore();
-  const handleSetRuta = (option: string) => {
-    setRuta(option);
-  };
-  // Cambia esto según la ruta actual
+
   return (
     <>
       <nav
@@ -48,9 +44,8 @@ const Header = ({}) => {
                   <li key={ruta} className="dropdown-item">
                     <Link
                       className="link"
-                      href={`/Rutas`}
+                      href={`/Rutas?location=${encodeURIComponent(ruta)}`}
                       style={{ color: "#471919" }}
-                      onClick={() => handleSetRuta(ruta)}
                     >
                       Desde {ruta}
                     </Link>

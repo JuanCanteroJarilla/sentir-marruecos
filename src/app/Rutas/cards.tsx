@@ -10,8 +10,10 @@ type CardProps = {
     days: string;
   };
 };
+
 function Cards({ data }: CardProps) {
   const { title, img, location, days } = data;
+
 
   return (
     <>

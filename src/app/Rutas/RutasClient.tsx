@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState} from "react";
 import useStore from "@/app/store";
 import GetAccommodation from "./[location]/accomodation";
 type Day = {
@@ -29,10 +29,11 @@ export default function RutaCliente({
   locationParam: string;
 }) {
   const ruta = useStore((state) => state.ruteLocation);
+
   const mostrarRuta = ruta || decodeURIComponent(locationParam);
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-  
+
 
   function capitalizeWords(str: string) {
     return str.replace(/\b\w/g, (char) => char.toUpperCase());
@@ -91,7 +92,7 @@ export default function RutaCliente({
           </div>
         ))}
       </div>
-       <GetAccommodation accommodation={response.accommodation} />
+      <GetAccommodation accommodation={response.accommodation} />
     </>
   );
 }
