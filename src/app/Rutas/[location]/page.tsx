@@ -6,7 +6,12 @@ export default async function Ruta(props: {
   params: Promise<{ location: string }>;
 }) {
   const { location } = await props.params;
-  const response = await getRuta();
+  const decodedLocation = decodeURIComponent(location);
+  const locationWithoutAccents = decodedLocation
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+  const locationWithHyphens = locationWithoutAccents.replaceAll(" ", "-");
+  const response = await getRuta(locationWithHyphens);
 
   return (
     <>

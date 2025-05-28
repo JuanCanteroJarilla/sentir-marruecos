@@ -1,9 +1,7 @@
 "use client";
 import { useState } from "react";
 import useStore from "@/app/store";
-import { GiArabicDoor } from "react-icons/gi";
-import { FaBed, FaMapMarkedAlt, FaUserTie, FaCar } from "react-icons/fa";
-import { TbCarSuvFilled } from "react-icons/tb";
+import GetAccommodation from "./[location]/accomodation";
 type Day = {
   id: number;
   title: string;
@@ -34,43 +32,10 @@ export default function RutaCliente({
   const mostrarRuta = ruta || decodeURIComponent(locationParam);
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-  const accommodation = response.accommodation
-    .split("\n")
-    .map((line) => line.trim())
-    .filter((line) => line.length > 0);
+  
 
   function capitalizeWords(str: string) {
     return str.replace(/\b\w/g, (char) => char.toUpperCase());
-  }
-
-  function getAccomodationIcon(accommodation: string) {
-    if (accommodation.toLowerCase().includes("riad")) {
-      return (
-        <>
-          <FaBed className="w-6 h-6 mr-2 text-[#471919]" />
-          <GiArabicDoor className="w-6 h-6 mr-2 text-[#471919]" />
-        </>
-      );
-    }
-    if (accommodation.toLowerCase().includes("hotel")) {
-      return <FaBed className="w-6 h-6 mr-2 text-[#471919]" />;
-    }
-    if (
-      accommodation.toLowerCase().includes("vehículo") ||
-      accommodation.toLowerCase().includes("4x4")
-    ) {
-      return <TbCarSuvFilled className="w-6 h-6 mr-2 text-[#471919]" />;
-    }
-    if (accommodation.toLowerCase().includes("visita")) {
-      return <FaMapMarkedAlt className="w-6 h-6 mr-2 text-[#471919]" />;
-    }
-    if (accommodation.toLowerCase().includes("guía")) {
-      return <FaUserTie className="w-6 h-6 mr-2 text-[#471919]" />;
-    }
-    if (accommodation.toLowerCase().includes("traslados")) {
-      return <FaCar className="w-6 h-6 mr-2 text-[#471919]" />;
-    }
-    return null;
   }
 
   return (
@@ -126,20 +91,7 @@ export default function RutaCliente({
           </div>
         ))}
       </div>
-      <div className="flex flex-row justify-center items-center gap-2 mt-8 mb-4">
-        <p>¿Qué incluye esta ruta?</p>
-      </div>
-      <div>
-        {accommodation.map((acc, idx) => (
-          <div
-            key={idx}
-            className="bg-white rounded-lg shadow p-4 border border-[#471919]/20 flex items-center"
-          >
-            {getAccomodationIcon(acc)}
-            <span className="text-[#471919]">{acc}</span>
-          </div>
-        ))}
-      </div>
+       <GetAccommodation accommodation={response.accommodation} />
     </>
   );
 }

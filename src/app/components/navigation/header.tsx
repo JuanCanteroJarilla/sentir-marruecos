@@ -27,7 +27,15 @@ const Header = ({}) => {
   // Cambia esto según la ruta actual
   return (
     <>
-      <nav className="navigation flex items-center justify-between p-4">
+      <nav
+        className="navigation flex items-center justify-between p-4"
+        style={{
+    background: "rgba(251, 238, 230, 0.55)", // color crema semitransparente
+    backdropFilter: "blur(8px)", // desenfoque del fondo
+    WebkitBackdropFilter: "blur(8px)",
+    // borderBottom: "1px solid #e5d1c0",
+  }}
+      >
         {/* Menú principal centrado */}
         <div className="main-menu flex-1 ml-28">
           <ul className={`flex justify-center list-none gap-6 ${navTextColor}`}>

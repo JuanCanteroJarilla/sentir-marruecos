@@ -8,6 +8,11 @@
   src: url("/fonts/Raleway-VariableFont_wght.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Quicksand";
+  src: url("/fonts/Quicksand-VariableFont_wght.ttf") format("truetype");
+}
+
 .tituloRutas {
   font-family: "Bonheur Royale", sans-serif;
   font-weight: 400;
@@ -42,6 +47,39 @@
   // filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.5)); /* Sombra negra suave */
 }
 
+.tituloIncluyeRutas{
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #471919;
+  text-align: center;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+
 .dayDescription, .dayTitle{
   font-family: "Raleway", sans-serif;
+}
+
+.accContent {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;                // Un poco más de peso
+  font-size: 1.15rem;              // Tamaño ligeramente menor para elegancia
+  color: #471919;
+  letter-spacing: 1.2px;           // Más espaciado
+  opacity: 0.92;                   // Más visible
+  background: linear-gradient(90deg, #fbeee6 0%, #fff 100%);
+  border-radius: 0.75rem;
+  padding: 0.5rem 1.25rem;
+  margin: 0.25rem 0;
+  box-shadow: 0 2px 8px rgba(71, 25, 25, 0.08);
+  transition: box-shadow 0.2s;
+  border: 1px solid #f3e5d8;
+}
+
+
+.accContent:hover {
+  box-shadow: 0 4px 16px rgba(71, 25, 25, 0.18);
+  background: linear-gradient(90deg, #fbeee6 0%, #f3e5d8 100%);
+  opacity: 1;
 }
