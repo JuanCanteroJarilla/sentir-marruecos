@@ -9,8 +9,10 @@ export default async function Ruta(props: {
   const decodedLocation = decodeURIComponent(location);
   const locationWithoutAccents = decodedLocation
     .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "");
+    .replace(/[\u0300-\u036f]/g, "")
+    .replaceAll(", ", "-");;
   const locationWithHyphens = locationWithoutAccents.replaceAll(" ", "-");
+  console.log(locationWithHyphens);
   const response = await getRuta(locationWithHyphens);
 
   return (
