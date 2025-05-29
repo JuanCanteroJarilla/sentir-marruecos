@@ -29,7 +29,6 @@ const Header = ({}) => {
           background: "rgba(251, 238, 230, 0.55)", // color crema semitransparente
           backdropFilter: "blur(8px)", // desenfoque del fondo
           WebkitBackdropFilter: "blur(8px)",
-          // borderBottom: "1px solid #e5d1c0",
         }}
       >
         {/* Menú principal centrado */}
@@ -60,7 +59,11 @@ const Header = ({}) => {
               {/* Dropdown */}
               <ul className="dropdown-menu absolute hidden group-hover:block bg-white shadow-lg rounded-md mt-2 p-2">
                 <li className="dropdown-item">
-                  <Link className="link" href="" style={{ color: "#471919" }}>
+                  <Link
+                    className="link"
+                    href="/Actividades/alquiler-quads-y-buggies"
+                    style={{ color: "#471919" }}
+                  >
                     Alquiler de quads/buggies
                   </Link>
                 </li>
