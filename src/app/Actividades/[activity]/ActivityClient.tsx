@@ -32,7 +32,7 @@ export default function ActividadClient({ activity }: { activity: string }) {
                 aria-expanded={openIndex === idx}
                 aria-controls={`accordion-content-${item.id}`}
               >
-                {/* Imagen de fondo con opacidad baja */}
+
                 <div
                   className="absolute inset-0 pointer-events-none"
                   style={{
