@@ -3,15 +3,11 @@ import "./styles.scss";
 import { useState } from "react";
 import { QuadsBuggies } from "./data";
 
-export default function ActividadClient({
-  activity,
-}: {
-  activity: { activity: string };
-}) {
+export default function ActividadClient({ activity }: { activity: string }) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   // Si quieres mostrarlo con espacios y mayúsculas:
-  const formattedTitle = activity.activity
+  const formattedTitle = activity
     .replace(/-/g, " ")
     .replace(/\b\w/g, (l) => l.toUpperCase());
 
