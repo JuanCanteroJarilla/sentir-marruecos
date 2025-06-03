@@ -2,7 +2,9 @@
 import "./styles.scss";
 import { QuadsBuggies } from "./data";
 import Accordion from "@/app/utils/accordion";
-
+import Image from "next/image";
+import { FaMapLocationDot } from "react-icons/fa6";
+import { FaListUl, FaCheckCircle, FaStar, FaPlusCircle } from "react-icons/fa";
 export default function ActividadClient({ activity }: { activity: string }) {
   // Si quieres mostrarlo con espacios y mayúsculas:
   const formattedTitle = activity
@@ -24,37 +26,56 @@ export default function ActividadClient({ activity }: { activity: string }) {
                 <p className="italic text-lg tracking-wide">
                   {item.description}
                 </p>
-                <p className="font-bold text-[#471919] text-lg">
-                  Zona:{" "}
-                  <span className="font-normal text-lg tracking-wide">
-                    {item.zone}
-                  </span>
-                </p>
-                <p className="font-bold text-[#471919] text-lg">
-                  Vehículo:{" "}
-                  <span className="font-normal text-lg tracking-wide">
-                    {item.vehicle}
-                  </span>
-                </p>
-                <div>
-                  <p className="font-bold text-[#471919] mt-2 text-lg">
-                    Modalidad:
+                <div className="flex flex-column gap-2">
+                  <FaMapLocationDot size={32} />
+                  <p className="font-bold text-[#471919] text-lg">
+                    Zona:{" "}
+                    <span className="font-normal text-lg tracking-wide">
+                      {item.zone}
+                    </span>
                   </p>
-                  <ul className="list-disc list-inside ml-4 text-lg tracking-wide">
-                    {item.modality.map((m, i) => (
-                      <li key={i}>{m}</li>
-                    ))}
-                  </ul>
                 </div>
-                <div>
-                  <p className="font-bold text-[#471919] mt-2 text-lg">
-                    Incluye:
+                <div className="flex flex-column gap-2">
+                  <Image
+                    src="/images/quad.svg"
+                    alt="Quad"
+                    width={28}
+                    height={28}
+                    className="inline w-8 h-8"
+                    style={{ color: "#471919" }}
+                  />
+                  <p className="font-bold text-[#471919] text-lg">
+                    Vehículo:{" "}
+                    <span className="font-normal text-lg tracking-wide">
+                      {item.vehicle}
+                    </span>
                   </p>
-                  <ul className="list-disc list-inside ml-4 text-lg tracking-wide">
-                    {item.included.map((inc, i) => (
-                      <li key={i}>{inc}</li>
-                    ))}
-                  </ul>
+                </div>
+                <div className="flex flex-column gap-2">
+                  <FaListUl size={34} className="pt-2" />
+                  <div>
+                    <p className="font-bold text-[#471919] mt-2 text-lg">
+                      Modalidad:
+                    </p>
+                    <ul className="list-disc list-inside ml-4 text-lg tracking-wide">
+                      {item.modality.map((m, i) => (
+                        <li key={i}>{m}</li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+                <div className="flex flex-column gap-2">
+                  <FaCheckCircle size={32} className="pt-2" />
+                  <div>
+                    <p className="font-bold text-[#471919] mt-2 text-lg">
+                      Incluye:
+                    </p>
+                    <ul className="list-disc list-inside ml-4 text-lg tracking-wide">
+                      {item.included.map((inc, i) => (
+                        <li key={i}>{inc}</li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
                 {item.combine.length > 0 && (
                   <div>
@@ -68,26 +89,32 @@ export default function ActividadClient({ activity }: { activity: string }) {
                     </ul>
                   </div>
                 )}
-                <div>
-                  <p className="font-bold text-[#471919] mt-2 text-lg">
-                    Ideal para:
-                  </p>
-                  <ul className="list-disc list-inside ml-4 text-lg tracking-wide">
-                    {item.idealFor.map((ideal, i) => (
-                      <li key={i}>{ideal}</li>
-                    ))}
-                  </ul>
-                </div>
-                {item.additional.length > 0 && (
+                <div className="flex flex-column gap-2">
+                  <FaStar size={32} className="pt-2" />
                   <div>
                     <p className="font-bold text-[#471919] mt-2 text-lg">
-                      Adicional:
+                      Ideal para:
                     </p>
                     <ul className="list-disc list-inside ml-4 text-lg tracking-wide">
-                      {item.additional.map((add, i) => (
-                        <li key={i}>{add}</li>
+                      {item.idealFor.map((ideal, i) => (
+                        <li key={i}>{ideal}</li>
                       ))}
                     </ul>
+                  </div>
+                </div>
+                {item.additional.length > 0 && (
+                  <div className="flex flex-column gap-2">
+                    <FaPlusCircle size={32} className="pt-2" />
+                    <div>
+                      <p className="font-bold text-[#471919] mt-2 text-lg">
+                        Adicional:
+                      </p>
+                      <ul className="list-disc list-inside ml-4 text-lg tracking-wide">
+                        {item.additional.map((add, i) => (
+                          <li key={i}>{add}</li>
+                        ))}
+                      </ul>
+                    </div>
                   </div>
                 )}
               </div>
