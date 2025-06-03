@@ -21,6 +21,9 @@ export default function ActividadClient({ activity }: { activity: string }) {
           {QuadsBuggies.map((item) => (
             <Accordion key={item.id} location={item.location}>
               <div className="py-4 text-gray-700 space-y-2 subTitle">
+                <p className="italic text-lg tracking-wide">
+                  {item.description}
+                </p>
                 <p className="font-bold text-[#471919] text-lg">
                   Zona:{" "}
                   <span className="font-normal text-lg tracking-wide">
@@ -32,10 +35,6 @@ export default function ActividadClient({ activity }: { activity: string }) {
                   <span className="font-normal text-lg tracking-wide">
                     {item.vehicle}
                   </span>
-                </p>
-                <p className="font-bold text-[#471919] text-lg">Descripción:</p>
-                <p className="italic text-lg tracking-wide">
-                  {item.description}
                 </p>
                 <div>
                   <p className="font-bold text-[#471919] mt-2 text-lg">

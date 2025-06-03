@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("/fonts/Quicksand-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("/fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Bonheur Royale";
+  src: url("/fonts/BonheurRoyale-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("/fonts/NunitoSans.ttf") format("truetype");
+}
+
+.text{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.links{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.title{
+    font-family: "Bonheur Royale", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 20px;
+}
