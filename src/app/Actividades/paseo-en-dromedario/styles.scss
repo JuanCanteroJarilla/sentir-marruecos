@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Bonheur Royale";
+  src: url("/fonts/BonheurRoyale-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("/fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+}
+
+.mainDivQuads {
+  background-image: url("/images/camel.jpg");
+  background-size: cover;
+  background-position: center 40%;
+  background-repeat: no-repeat;
+  height: 45vh;
+  position: relative;
+  z-index: 1;
+}
+
+.tituloRutas {
+  font-family: "Bonheur Royale", sans-serif;
+  font-weight: 400;
+  font-size: 3.5rem;
+  color: #471919;
+  text-align: center;
+  margin-top: 20px;
+  filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.5)); /* Sombra negra suave */
+}
+
+.locations{
+
+  font-family: "Raleway", sans-serif;
+  font-size: 1.3rem;
+  color: #471919;
+  text-align: center;
+  margin-left: auto; // Centra horizontalmente
+  margin-right: auto; // Centra horizontalmente
+  filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.5)); /* Sombra negra suave */
+
+}
+
+.subTitle {
+  font-family: "Raleway", sans-serif;
+  color: #471919;
+
+}

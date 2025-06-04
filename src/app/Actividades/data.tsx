@@ -2,6 +2,7 @@ export const QuadsBuggies = [
   {
     id: 1,
     location: `Merzouga`,
+
     description: `Te imaginas recorrer las dunas del Sahara a toda velocidad en un quad o un buggy? Con Sentir
         Marruecos, esa aventura deja de ser un sueño para convertirse en pura adrenalina. Te llevamos
         por las rutas más emocionantes del desierto, antiguamente reservadas para los valientes del
@@ -54,5 +55,17 @@ export const QuadsBuggies = [
       `Grupos, parejas y familias`,
     ],
     additional: [],
+  },
+];
+
+export const PaseoEnDromedario = [
+  {
+    id: 1,
+    location: `Merzouga`,
+    description: `Explorar Marruecos a lomos de un dromedario es mucho más que una simple actividad
+    turística: es una manera de viajar al ritmo del desierto, de sentir el silencio de las dunas y de
+    vivir la esencia nómada que forma parte de nuestra historia. Ya sea en las dunas doradas de
+    Merzouga o en el mágico paisaje del desierto de Agafay, este paseo te invita a desconectar del
+    mundo moderno y conectar con la naturaleza, la tradición y contigo mismo.`,
   },
 ];

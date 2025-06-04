@@ -5,7 +5,7 @@ import "./styles.scss"
 
 export default function Footer() {
   return (
-    <footer className="bg-[#1B1B1B] text-white pt-12 pb-8 px-4 mt-16">
+    <footer className="bg-[#1B1B1B] text-white pt-12 pb-8 px-4">
       <div className="max-w-2xl mx-auto flex flex-col items-center text-center gap-6">
         {/* Logo y descripción */}
         <div className="flex flex-col items-center gap-4">

@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import "./mainStyles.scss";
 
 export default function Home() {
   const isScrolling = useRef(false); // Para evitar múltiples activaciones
