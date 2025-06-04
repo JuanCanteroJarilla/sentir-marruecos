@@ -10,7 +10,7 @@ export default function ActividadClient() {
   return (
     <>
       <div className="mainDivQuads"></div>
-      <div className="min-h-screen w-full bg-gradient-to-br from-[#fbeee6] via-[#f9f6f2] to-[#e5e7eb] py-12 px-2">
+      <div className="bg-gradient-to-br from-[#fbeee6] via-[#f9f6f2] to-[#e5e7eb] py-12">
         <div className="flex justify-center items-center tituloRutas text-4xl font-extrabold text-[#471919] tracking-wider drop-shadow-lg mb-8 text-center">
           <p>Alquiler de quads y buggies</p>
         </div>

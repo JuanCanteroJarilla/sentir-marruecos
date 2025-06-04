@@ -68,4 +68,14 @@ export const PaseoEnDromedario = [
     Merzouga o en el mágico paisaje del desierto de Agafay, este paseo te invita a desconectar del
     mundo moderno y conectar con la naturaleza, la tradición y contigo mismo.`,
   },
+  {
+    id: 2,
+    location: `Agafay`,
+    description: `A solo unos kilómetros de Marrakech, el desierto de Agafay ofrece una alternativa sorprendente
+    y accesible. Aunque no tiene dunas, su paisaje lunar de piedras doradas y colinas suaves crea
+    una atmósfera igual de mágica. Aquí, el paseo en dromedario es perfecto para quienes buscan
+    una escapada rápida pero auténtica. Puedes elegir un paseo al atardecer seguido de un té
+    tradicional en una jaima o combinar la experiencia con una COMIDA cena bajo las estrellas.
+    Agafay es el lugar ideal para saborear el desierto sin alejarte demasiado de la ciudad.`,
+  },
 ];
