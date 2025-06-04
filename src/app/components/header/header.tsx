@@ -109,11 +109,11 @@ const Header = ({}) => {
                 Especial
               </Link>
             </li>
-            <li className="menu-item">
+            {/* <li className="menu-item">
               <Link className="link" href="">
                 Blog
               </Link>
-            </li>
+            </li> */}
             <li className="menu-item">
               <Link className="link" href="">
                 Sobre nosotros
