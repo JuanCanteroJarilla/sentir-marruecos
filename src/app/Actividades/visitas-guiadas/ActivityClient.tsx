@@ -2,7 +2,7 @@
 import "./styles.scss";
 import { VisitasGuiadas } from "../data";
 import Accordion from "@/app/utils/accordion";
-import { FaListUl, FaRegClock, FaGlobe, FaCheckCircle } from "react-icons/fa";
+import { FaRegClock, FaGlobe, FaCheckCircle } from "react-icons/fa";
 export default function ActividadClient() {
   return (
     <>
