@@ -13,7 +13,6 @@ export default function ActividadClient() {
             desierto
           </p>
         </div>
-        <hr className="border-t-2 border-[#e5e7eb] w-104 mx-auto mb-8 opacity-60 rounded-full" />
         <div className="">
           <p className="text-center max-w-6xl mx-auto subTitle">
             Explorar Marruecos a lomos de un dromedario es mucho más que una

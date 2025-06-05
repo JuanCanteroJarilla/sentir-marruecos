@@ -79,3 +79,22 @@ export const PaseoEnDromedario = [
     Agafay es el lugar ideal para saborear el desierto sin alejarte demasiado de la ciudad.`,
   },
 ];
+
+export const GloboAerostatico = [
+  {
+    id: 1,
+    location: `Marrakech`,
+    duration: `4-5 horas (con traslado desde Marrakech)`,
+    zone: `Campiña a las afueras de Marrakech`,
+    included: [
+      `Traslado ida y vuelta desde tu alojamiento`,
+      `Bebida caliente antes del vuelo`,
+      `Vuelo en globo de 40-60 min`,
+      `Desayuno tradicional tras el aterrizaje`,
+      `Certificado de vuelo`,
+    ],
+    idealFor: `Parejas, grupos de amigos, familias, viajeros que quieren vivir una experiencia única
+sin alejarse demasiado de la ciudad`,
+    experienceType: `Compartida (grupo reducido)`,
+  },
+];

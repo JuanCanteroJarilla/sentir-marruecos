@@ -73,7 +73,7 @@ const Header = ({}) => {
                   </Link>
                 </li>
                 <li className="dropdown-item">
-                  <Link className="link" href="" style={{ color: "#471919" }}>
+                  <Link className="link" href="/Actividades/globo-aerostatico" style={{ color: "#471919" }}>
                     Globo aerostático
                   </Link>
                 </li>

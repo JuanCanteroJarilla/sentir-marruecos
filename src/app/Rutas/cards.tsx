@@ -28,7 +28,7 @@ function Cards({ data }: CardProps) {
               className="w-full rounded-md group-hover:opacity-35 cursor-pointer transition duration-300 ease-in-out object-cover"
             />
             <button className="reserveText absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white font-semibold cursor-pointer">
-              Reserve ahora
+              Ver detalles
             </button>
           </a>
         </div>
