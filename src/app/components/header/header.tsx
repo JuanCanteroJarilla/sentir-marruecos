@@ -68,22 +68,38 @@ const Header = ({}) => {
                   </Link>
                 </li>
                 <li className="dropdown-item">
-                  <Link className="link" href="/Actividades/paseo-en-dromedario" style={{ color: "#471919" }}>
+                  <Link
+                    className="link"
+                    href="/Actividades/paseo-en-dromedario"
+                    style={{ color: "#471919" }}
+                  >
                     Paseo en dromedario
                   </Link>
                 </li>
                 <li className="dropdown-item">
-                  <Link className="link" href="/Actividades/globo-aerostatico" style={{ color: "#471919" }}>
+                  <Link
+                    className="link"
+                    href="/Actividades/globo-aerostatico"
+                    style={{ color: "#471919" }}
+                  >
                     Globo aerostático
                   </Link>
                 </li>
                 <li className="dropdown-item">
-                  <Link className="link" href="/Actividades/hammam" style={{ color: "#471919" }}>
+                  <Link
+                    className="link"
+                    href="/Actividades/hammam"
+                    style={{ color: "#471919" }}
+                  >
                     Hammamm tradicional marroquí
                   </Link>
                 </li>
                 <li className="dropdown-item">
-                  <Link className="link" href="" style={{ color: "#471919" }}>
+                  <Link
+                    className="link"
+                    href="/Actividades/visitas-guiadas"
+                    style={{ color: "#471919" }}
+                  >
                     Visitas guiadas
                   </Link>
                 </li>

@@ -98,3 +98,56 @@ sin alejarse demasiado de la ciudad`,
     experienceType: `Compartida (grupo reducido)`,
   },
 ];
+
+export const VisitasGuiadas = [
+  {
+    id: 1,
+    location: `Fez`,
+    title: `Sumérgete en el alma cultural de Marruecos`,
+    description: `Descubre Fez, la ciudad imperial más antigua de Marruecos, de la mano de nuestros guías
+    locales expertos. En esta visita guiada recorrerás la medina de Fez el-Bali, declarada Patrimonio
+    de la Humanidad por la UNESCO, considerada una de las más auténticas y vivas del mundo
+    árabe.
+    Acompañado por tu guía privado, explorarás callejuelas laberínticas repletas de historia,
+    tradición y vida. Visitarás escuelas coránicas como la Bou Inania, antiguos palacios, curtidores
+    tradicionales, zocos artesanales y los famosos portales decorados como Bab Boujloud. También
+    conocerás la universidad más antigua del mundo aún en funcionamiento: la Universidad de Al
+    Qarawiyyin.
+    Esta experiencia es una inmersión total en la cultura marroquí, donde cada rincón cuenta una
+    historia, cada aroma despierta recuerdos, y cada encuentro deja huella.
+    Y para que no te pierdas ninguna perspectiva de esta ciudad mágica, te llevaremos en 4x4 hasta
+    un mirador panorámico desde donde podrás contemplar toda Fez en una sola imagen: sus
+    murallas, la medina, los minaretes y los tejados verdes de sus mezquitas. Un momento ideal
+    para fotos inolvidables y para conectar con la historia desde las alturas.`,
+    included: [
+      `Guía local oficial en español (u otros idiomas bajo solicitud)`,
+      `Recorrido completo por la medina y sus monumentos más importantes`,
+      `Visita a talleres artesanales y cooperativas locales`,
+      `Paradas para fotos, descanso y consejos personalizados`,
+      `Paseo en 4x4 hasta el mejor mirador de Fez`,
+    ],
+    duration: `Medio día`,
+    modality: `tour privado y adaptado a tus intereses`,
+  },
+  {
+    id: 2,
+    location: `Marrakech`,
+    title: `Un viaje al corazón de la ciudad Roja`,
+    description: `Explora Marrakech con los ojos de un local y déjate envolver por el encanto vibrante de esta
+    ciudad imperial. Nuestra visita guiada te lleva a conocer lo más auténtico de Marrakech: su
+    historia, su arquitectura y su vida diaria, siempre acompañado por un guía local experto y
+    apasionado por su cultura.
+    Comenzamos en los lugares más emblemáticos, como la famosa Plaza Jemaa el-Fna, el Palacio
+    Bahía, la Mezquita Koutoubia (desde el exterior), las Tumbas Saadíes y los jardines escondidos
+    en el interior de la medina. Recorremos también los coloridos zocos, donde los artesanos siguen
+    trabajando el cuero, las especias, el metal o la cerámica como lo hacían hace siglos.`,
+    included: [
+      `Guía local oficial en español (u otros idiomas bajo solicitud)`,
+      `Recorrido completo por los principales monumentos históricos y culturales`,
+      `Visita a los zocos y talleres tradicionales`,
+      `Consejos y recomendaciones locales`,
+    ],
+    duration: `Medio día`,
+    modality: `tour privado y totalmente personalizable`,
+  },
+];
