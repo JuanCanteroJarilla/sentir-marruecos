@@ -78,7 +78,7 @@ const Header = ({}) => {
                   </Link>
                 </li>
                 <li className="dropdown-item">
-                  <Link className="link" href="" style={{ color: "#471919" }}>
+                  <Link className="link" href="/Actividades/hammam" style={{ color: "#471919" }}>
                     Hammamm tradicional marroquí
                   </Link>
                 </li>
