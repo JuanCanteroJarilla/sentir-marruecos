@@ -155,4 +155,313 @@ export const RouteInfo: { [key: string]: RouteDetail } = {
       "Traslado del aeropuerto",
     ],
   },
+  "chefchaouen, fez y desierto nómada": {
+    id: 4,
+    description:
+      "Esta ruta cruza el país de Norte a Sur, parte desde Tánger, ciudad de interés monumental destacando la Gran Mezquita de Mulay Ismail, pasando por el curioso pueblo azul de Chefchaouen, sin olvidarse de la magia del desierto y de la ciudad de Fez. Una vez más una ruta que muestra los grandes contrastes dentro de Marruecos, tanto a nivel de paisaje como de construcciones y ambientes.",
+    days: [
+      {
+        day: 1,
+        title: "Día 1: Tánger - Chefchaouen",
+        description:
+          "Llegada a Tánger, recogida y visita panorámica de la ciudad, en especial la medina o la Gran Mezquita. Destaca la plaza 9 de abril, una de las más grandes de la ciudad y lugar de encuentro de sus habitantes. Luego tomaremos la carretera en dirección a Chefchaouen. El encanto de Chefchaouen es perderse por sus calles estrechas y llenas de pequeños comercios, observando sus casas pintadas de azul y blanco.",
+      },
+      {
+        day: 2,
+        title: "Día 2: Chefchaouen - Midelt",
+        description:
+          "Traslado a Midelt a través de Ifrane, Fez y los grandes bosques de cedros. Parada en  la ciudad de Ifrane, conocida como la pequeña Suiza de Marruecos, que destaca por su estilo urbanístico centroeuropeo dado su clima frío en invierno (1.713 m.) y por la estatua del león, que da testimonio de los leones del Medio Atlas que habitaban ahí antiguamente. Pasaremos también por la población de Azrou, conocida por sus bosques de cedro y los simpáticos monos que habitan en ellos. Se hará noche en Midelt.",
+      },
+      {
+        day: 3,
+        title: "Día 3: Midelt - Merzouga ( el desierto)",
+        description:
+          "Seguiremos en dirección Merzouga, pasando por distintos pueblos, hacia Erfoud, pasando por el conocido valle del Ziz, donde se pueden admirar el contraste entre el paisaje más árido y la frondosidad de la ribera del río Ziz y sus palmerale y pudiendo observar la vida diaria de los habitantes que habitan en su ribera. El río Ziz fluye unos 300 kilómetros hasta adentrarse en el desierto del Sahara en la frontera de Argelia. A mediodía llegaremos a Erfoud, conocida por sus fósiles y las maravillosas rosas del desierto, y donde comeremos. Continuaremos después hacia Merzouga, donde llegaremos por la tarde. Merzouga se encuentra justo a los pies de las grandes dunas del desierto del Sahara, y los que lo deseen podrán dar una vuelta por la arena y ver la puesta de sol.  Noche en hotel seleccionado.",
+      },
+      {
+        day: 4,
+        title: "Día 4: Merzouga - Khamlia - Nómadas - Merzouga",
+        description:
+          "Nos levantaremos ante el imponente desierto del Sahara, y visitaremos el oasis de Merzouga, así como el pueblo de Khamlia donde habitan los Gnawas (descendientes de los esclavos que provenían del áfrica negra) en donde podremos disfrutar de su peculiar música. Después pasaremos por un río de arena, vista panorámica desde una montaña para observar el desierto en todo su esplendor. Continuaremos hacia el pueblo de Mefis, en donde hubo un asentamiento de franceses que trabajaban en las minas de khol, actualmente abandonado. Visitaremos a una familia nómada en medio de las dunas y disfrutaremos de su compañía tomando un te. Vuelta al hotel para comer y al atardecer salida con los camellos cerca de una hora para pasar la noche en campamento berebere en haimas dentro de la duna y cena y todo y dependiendo de la época del año se puede hacer vivac bajo las estrellas y disfrutar de la maravillosa tranquilidad que impregna todo el lugar.",
+      },
+      {
+        day: 5,
+        title: "Día 5: Merzouga - Fez",
+        description:
+          "Por la mañana salida en dromedario o quad hacia Merzouga de nuevo. Ducha y desayuno para partir  en dirección a Fez. Pasaremos por Rissani para visitar su mercado local y que fue una de las bases de las antiguas caravanas que atravesaban el Sahara hacia Tombuctú. Pasaremos por distintos pueblos bereberes hasta llegar a Fez. Visita de la ciudad y se hará noche en Fez.",
+      },
+      {
+        day: 6,
+        title: "Día 6: Fez - Tánger",
+        description:
+          "Salida dirección Tánger, llegada y fin de ruta. Traslados.",
+      },
+    ],
+    accommodation: [
+      "1 noche en Chefchaouen en Riad con desayuno",
+      "1 noche en el Desierto (Merzouga) en hotel con media pensión",
+      "1 noche en Haimas en las dunas del Desierto con media pensión",
+      "Tatuajes típicos de henna en el desierto",
+      "Fiesta tradicional con tambores en el desierto",
+      "Vehículo privado 4×4",
+      "Guía acompañante en español durante la duración completa del viaje",
+      "Traslados del aeropuerto",
+    ],
+  },
+  "midelt y desierto nómada": {
+    id: 5,
+    description:
+      "Esta ruta de 5 días es ideal para hacer un primer contacto con el desierto, también ofrece grandes contrastes al viajero puesto que se pasa de zonas montañosas a zonas totalmente áridas y desérticas. Durante toda la ruta se permite conocer pueblos bereberes para llegar finalmente al desierto donde se puede dormir en una haima típica. ¡Una auténtica aventura!",
+    days: [
+      {
+        day: 1,
+        title: "Día 1: Fez - Midelt",
+        description:
+          "Recogida en el aeropuerto de Fez y salida hacia el sur. Parada en  la ciudad de Ifrane, conocida como la pequeña Suiza de Marruecos, que destaca por su estilo urbanístico centroeuropeo dado su clima frío en invierno (1.713 m.) y por la estatua del león, que da testimonio de los leones del Medio Atlas que habitaban ahí antiguamente. Pasaremos también por la población de Azrou, conocida por sus bosques de cedro y los simpáticos monos que habitan en ellos. Se hará noche en Midelt.",
+      },
+      {
+        day: 2,
+        title: "Día 2: Midelt - Merzouga (desierto)",
+        description:
+          "Seguiremos en dirección Merzouga, pasando por distintos pueblos, hacia Erfoud, pasando por el conocido valle del Ziz, donde se pueden admirar el contraste entre el paisaje más árido y la frondosidad de la ribera del río Ziz y sus palmeral y pudiendo observarla vida diaria de los habitantes que habitan en su ribera. El río Ziz fluye unos 300 kilómetros hasta adentrarse en el desierto del Sahara en la frontera de Argelia. A mediodía llegaremos a Erfoud es conocida por sus fósiles y la maravillosas rosas del desierto y donde comeremos. Continuaremos después hacia Merzouga, donde llegaremos por la tarde. Merzouga se encuentra justo a los pies de las grandes dunas del desierto del Sahara, y los que lo deseen podrán dar una vuelta por la arena y ver la puesta de sol.  Noche en hotel seleccionado.",
+      },
+      {
+        day: 3,
+        title: "Día 3: Merzouga - Khamlia - Nómadas - Merzouga (dunas)",
+        description:
+          "Nos levantaremos ante el imponente desierto del Sahara, y visitaremos el oasis de Merzouga, así como del pueblo de Khamlia donde habitan los Gnawas (descendientes de los esclavos que provenían del áfrica negra) en donde podremos disfrutar de su peculiar música. Después pasaremos por un río de arena, vista panorámica desde una montaña para observar el desierto en todo su esplendor. Continuaremos hacia el pueblo de Mefis, en donde hubo un asentamiento de franceses que trabajaban en las minas de khol, actualmente abandonado. Visitaremos a una familia nómada en medio de las dunas y disfrutaremos de su compañía tomando un te. Vuelta al hotel para comer y al atardecer salida con los camellos cerca de una hora para pasar la noche en campamento berebere en haimas dentro de la dunas.",
+      },
+      {
+        day: 4,
+        title: "Día 4: Dunas - Merzouga - Fez",
+        description:
+          "Por la mañana salida en dromedario o quad hacia Merzouga de nuevo. Ducha y desayuno para partir  en dirección a Fez. Pasaremos por Rissani para visitar su mercado local y que fue una de las bases de las antiguas caravanas que atravesaban el Sahara hacia Tombuctú. Pasaremos por distintos pueblos bereberes hasta llegar a Fez. Visita de la ciudad y se hará noche en Fez.",
+      },
+      {
+        day: 5,
+        title: "Día 5: Fez",
+        description:
+          "Visita Fez, tercera ciudad más importante de Marruecos y una de las llamadas ciudades imperiales. La medina de Fez El Bali es la mayor de las dos medinas que tiene la ciudad y fue declarada Patrimonio de la Humanidad por la UNESCO en 1981. Asimismo es muy conocida por el barrio de los curtidores que merece una visita. Fin de ruta y traslado aeropuerto.",
+      },
+    ],
+    accommodation: [
+      "1 noche en Fez en Riad con desayuno",
+      "1 noche en Midelt en hotel con media pensión",
+      "1 noche en el Desierto (Merzouga) en hotel con media pensión",
+      "1 noche en Haimas en las dunas del Desierto con media pensión",
+      "Visita de la ciudad de Fez con guía local oficial",
+      "Excursión en dromedario por el desierto",
+      "Tatuajes típicos de henna en el desierto",
+      "Fiesta tradicional con tambores en el desierto",
+      "Vehículo privado 4×4",
+      "Guía acompañante en español durante la duración completa del viaje",
+      "Traslados del aeropuerto",
+    ],
+  },
+  "desierto nómada y marrakech": {
+    id: 6,
+    description:
+      "Ruta de 4 días que te permite conocer el desierto y sus secretos, así como visitar dos de las ciudades más importantes y emblemáticas de Marruecos: Fez y Marrakech. Se parte desde Fez y el destino final es Marrakech.",
+    days: [
+      {
+        day: 1,
+        title: "Día 1: Fez - Merzouga (desierto)",
+        description:
+          "Recogida en el aeropuerto de Fez y salida hacia el sur. Parada en  la ciudad de Ifrane, conocida como la pequeña Suiza de Marruecos, que destaca por su estilo urbanístico centroeuropeo dado su clima frío en invierno (1.713 m.) y por la estatua del león, que da testimonio de los leones del Medio Atlas que habitaban ahí antiguamente. Pasaremos también por la población de Azrou, conocida por sus bosques de cedro y los simpáticos monos que habitan en ellos. Se hará noche en Midelt. Se cruzará el Valle del Ziz, pasando por pueblos como Midelt o Erfoud, hasta llegar a Merzouga, al pie de las dunas del desierto, donde se hará noche.",
+      },
+      {
+        day: 2,
+        title: "Día 2: Merzouga - Khamlia -Nómadas - Merzouga",
+        description:
+          "Nos levantaremos ante el imponente desierto del Sahara, y visitaremos el oasis de Merzouga, así como el pueblo de Khamlia donde habitan los Gnawas (descendientes de los esclavos que provenían del áfrica negra) en donde podremos disfrutar de su peculiar música. Después pasaremos por un río de arena, vista panorámica desde una montaña para observar el desierto en todo su esplendor. Continuaremos hacia el pueblo de Mefis, en donde hubo un asentamiento de franceses que trabajaban en las minas de khol, actualmente abandonado. Visitaremos a una familia nómada en medio de las dunas y disfrutaremos de su compañía tomando un te. Vuelta al hotel para comer y al atardecer salida con los camellos cerca de una hora para pasar la noche en campamento berebere en haimas dentro de la duna y cena y todo y dependiendo de la época del año se puede hacer vivac bajo las estrellas y disfrutar de la maravillosa tranquilidad que impregna todo el lugar.",
+      },
+      {
+        day: 3,
+        title: "Día 3: Merzouga - Gargantas del Todra - Ouarzazate",
+        description:
+          "Después de la noche en las haimas, volveremos al hotel en donde podremos ducharnos y desayunar. Iniciaremos el camino de vuelta dirección Marrakech, pasando por el pueblo de Rissani donde podremos visitar el mercado local, muy importante antiguamente por ser nexo de unión de las caravanas que iban del norte al sur. Asimismo veremos las Gargantas del Todra,  la erosión ha construido un estrecho desfiladero con paredes verticales de más de 300 metros de altura, muy conocida por los escaladores. Podremos dar un bello paseo siguiendo el curso del río. Continuaremos por el Valle de las Rosas, al pie del Alto Atlas y donde el cultivo de la flor que le da nombre se divide en dos zonas. La más importante tiene una extensión de 30 kilómetros, empezando en el pueblo de Keelat M’Gouna hasta Bou Tharar. El paisaje vale la pena por estar enclavado en un cañón. Finalmente llegaremos a Ouarzazate, capital del cine en Marruecos, donde se hará noche.",
+      },
+      {
+        day: 4,
+        title: "Día 4: Ouarzazate-Ait Ben Haddou-Marrakech",
+        description:
+          "Nos levantaremos en Ouarzazate, el Hollywood marroquí, donde podremos visitar los estudios de cine donde se han grabado numerosas películas así como el museo dedicado al cine y la “Kasbah Taourirt”, en otros tiempos residencia del pachá de Marrakech. Después continuaremos hacia la “Kasbah de Ait Ben Haddou”, declarada Patrimonio de la Humanidad por la UNESCO donde se han filmado también distintas películas como La Momia o El reino de los cielos y lugar de parada antiguamente de las caravanas para que los viajeros cambiasen los dromedarios por caballos y así poder cruzar las montañas. Salida atravesando las montañas del Atlas de camino a Marrakech para finalizar el viaje.",
+      },
+    ],
+    accommodation: [
+      "1 noche en el Desierto (Merzouga) en hotel con media pensión",
+      "1 noche en Haimas en las dunas del Desierto con media pensión",
+      "1 noche en Ouarzazate en hotel con media pensión",
+      "Excursión en dromedario por el desierto",
+      "Tatuajes típicos de henna en el desierto",
+      "Fiesta tradicional con tambores en el desierto",
+      "Vehículo privado 4×4",
+      "Guía acompañante en español durante la duración completa del viaje",
+      "Traslados del aeropuerto",
+    ],
+  },
+  "fez y desierto nómada": {
+    id: 7,
+    description:
+      "Esta ruta de 3 días, que empieza y termina en Fez, es ideal para hacer un primer contacto con el desierto, también ofrece grandes contrastes al viajero puesto que se pasa de zonas montañosas a zonas totalmente áridas y desérticas. Durante toda la ruta se permite conocer pueblos bereberes para llegar finalmente al desierto donde se puede dormir en una haima típica. ¡Una auténtica aventura!",
+    days: [
+      {
+        day: 1,
+        title: "Día 1: Fez - Merzouga (desierto)",
+        description:
+          "Recogida en el aeropuerto de Fez y salida hacia el sur. Pasaremos también por la población de Azrou, conocida por sus bosques de cedro y los simpáticos monos que habitan en ellos. Seguiremos en dirección Merzouga, pasando por distintos pueblos, hacia Erfoud, pasando por el conocido valle del Ziz, donde se pueden admirar el contraste entre el paisaje más árido y la frondosidad de la ribera del río Ziz y sus palmerales. Erfoud es conocida por sus fósiles y la maravillosas rosas del desierto. Continuaremos después hacia Merzouga, donde llegaremos por la tarde. Merzouga se encuentra justo a los pies de las grandes dunas del desierto del Sahara, y los que lo deseen podrán dar una vuelta por la arena y ver la puesta de sol.  Noche en hotel seleccionado.",
+      },
+      {
+        day: 2,
+        title: "Día 2: Merzouga - Khamlia - Nómadas - Merzouga",
+        description:
+          "Nos levantaremos ante el imponente desierto del Sahara, y visitaremos el oasis de Merzouga, así como el pueblo de Khamlia donde habitan los Gnawas (descendientes de los esclavos que provenían del áfrica negra) en donde podremos disfrutar de su peculiar música. Después pasaremos por un río de arena, vista panorámica desde una montaña para observar el desierto en todo su esplendor. Continuaremos hacia el pueblo de Mefis, en donde hubo un asentamiento de franceses que trabajaban en las minas de khol, actualmente abandonado. Visitaremos a una familia nómada en medio de las dunas y disfrutaremos de su compañía tomando un te. Vuelta al hotel para comer y al atardecer salida con los camellos cerca de una hora para pasar la noche en campamento berebere en haimas dentro de la dunas",
+      },
+      {
+        day: 3,
+        title: "Día 3: Merzouga - Fez",
+        description:
+          "Despertar en el medio del desierto y vuelta al hotel para ducha y desayuno. Después partiremos en dirección a Fez. Pasaremos por Rissani para visitar su mercado local y que fue una de las bases de las antiguas caravanas que atravesaban el Sahara hacia Tombuctú. Pasaremos por distintos pueblos bereberes hasta llegar a Fez y fin de ruta.",
+      },
+    ],
+    accommodation: [
+      "1 noche en el Valle del Dadès en hotel con media pensión",
+      "1 noche en Haimas en las dunas del Desierto con media pensión",
+      "Excursión en dromedario en el desierto",
+      "Tatuajes típicos de henna en el desierto",
+      "Fiesta tradicional con tambores en el desierto",
+      "Vehículo privado 4×4",
+      "Guía acompañante en español durante la duración completa del viaje",
+    ],
+  },
+  "marruecos al completo": {
+    id: 7,
+    description:
+      "Esta gran ruta circular te permitirá conocer a fondo cada rincón de Marruecos. Durante 16 días podrás tomar tiempo suficiente para adentrarte en la cultura y la esencia de cada lugar. Visitaremos todas las principales ciudades del país, la costa atlántica y pasaremos tres días en el desierto del Sáhara para conocer el modo de vida de las poblaciones de esta zona y experimentar nosotros mismos las sensaciones que nos transmite este lugar único en el mundo.",
+    days: [
+      {
+        day: 1,
+        title: "Día 1: Llegada a Casablanca",
+        description:
+          "A la hora estimada, recogida por nuestro guía en el aeropuerto de Casablanca y traslado al hotel. Después de tomar el primer contacto con la capital económica de Marruecos comenzaremos la visita de su famosa mezquita de Hassan II y otros lugares interesantes como el Courniche y la Plaza de las Palomas. (En caso de que el vuelo llegase por la noche esta visita se realizaría al día siguiente).",
+      },
+      {
+        day: 2,
+        title:
+          "Día 2: Casablanca – Rabat – Souk Larbaa – Ouazane – Chefchaouen",
+        description:
+          "Después del desayuno saldremos en dirección hacia Rabat donde visitaremos sus monumentos principales: Alcazaba de los Oudaias, el Mausoleo de Mohammed V y la Torre Hassan. Después de un poco de tiempo libre para pasear por la ciudad pondremos rumbo hacia Chefchaouen, donde haremos noche. Esta ciudad está ubicada en el único parque natural intercontinental declarado reserva natural de la biosfera de Marruecos. Es un pueblo colgado en la montaña pintado de blanco y azul, poblado por gente sabia, amable y respetuosa, que ofrece al visitante hermosos parajes urbanos, preciosas muestras de artesanía local y una paz y serenidad que hoy en día son difíciles de encontrar. Alojamiento en Hotel con desayuno.",
+      },
+      {
+        day: 3,
+        title: "Día 3: Día Libre en Chefchaouen",
+        description:
+          "Después del desayuno pasaremos un día entero descubriendo Chefchaouen, pueblo de montaña en el corazón del Rif, destacado por su arquitectura andaluza de casas encaladas en blanco y azul añil. Visitaremos la medina para conocer su patrimonio histórico-cultural, y disfrutaremos de su luz, sus calles, su pintoresca plaza de Uta, el Hammam, la Cascada de Rass-el Maa y como no, el colorido de sus calles llenas de artesanía. Vale la pena tomarse un té a la menta en la terraza de algún café, observando a la gente cómo va y viene relajadamente, o perderse por la medina y charlar con sus gentes o jugar con los niños… ¡hay tantas opciones!. Alojamiento en Hotel con desayuno.",
+      },
+      {
+        day: 4,
+        title: "Día 4: Chefchaouen – Volubilis – Moulay Idriss – Fez",
+        description:
+          "Después del desayuno dejaremos el rico mundo de Chefchaouen para dirigirnos hacia Fez, la primera de las ciudades imperiales que tiene el orgullo de albergar una de las universidades más antiguas del mundo. Por el camino visitaremos las ruinas romanas de Volubilis, muy bien conservadas. También podremos ver una panorámica de Moulay Idriss, la ciudad santa donde almorzaremos y por la tarde llegaremos a Fez para disfrutar del atardecer mientras visitamos las murallas y puertas de su medina o simplemente tomando el té de bienvenida desde la Terraza de nuestro hotel observando la medina. Alojamiento en Hotel con desayuno.",
+      },
+      {
+        day: 5,
+        title:
+          "Día 5: Visita con guía local de la Medina y los Monumentos de Fez",
+        description:
+          "Después de un rico desayuno en el hotel, comenzaremos nuestra visita guiada por la parte nueva de la ciudad de Fez, donde nos acercamos al palacio real, el barrio de los Judíos (Mellah) y después iremos a un mirador donde podremos observar toda la medina desde la Torre del sur y las numerosas Mezquitas. Después recorreremos a pie la medina, declarada por la UNESCO Patrimonio de la Humanidad, sus callejuelas laberínticas estructuradas por gremios de alfareros, tintoreros, y otras artesanías. El bullicio de sus gentes nos transportará siglos atrás. Notaremos que es una ciudad medieval y que el tiempo se ha detenido en el reloj “la Magana Bounania” 1200 años después de su construcción. ¡Una maravilla! Alojamiento en hotel con desayuno.",
+      },
+      {
+        day: 6,
+        title:
+          "Día 6: Fez – Ifrane – Bosque de Cedros – Midélt – Valle de Ziz – Desierto de Merzouga",
+        description:
+          "Después del desayuno saldremos dirección sur para cruzar las Montañas del Medio Atlas hasta llegar a Ifrane, también denominada “la pequeña Suiza marroquí” por su gran parecido a ese país. Uno de los animales que antiguamente habitaba aquí era el león del Atlas, por lo que ha pasado a convertirse en el símbolo de la ciudad y al que le han dedicado una estatua de piedra en el centro de la misma. Aprovecharemos para parar y « saludar » al gran león. Después cruzaremos los famosos bosques de cedros y podremos admirar el Gran Cedro Gouraud, el cedro milenario más grande de la región y también dar de comer a los cientos de monos de Gibraltar que habitan en la zona. Almorzaremos en Midélt y a partir de aquí la tierra se volverá más árida y repleta de espectaculares formaciones geológicas y profundos valles verdes, como el Valle del Ziz. Comenzaremos a ver la típica arquitectura de adobe, palmeras y algunas Kasbahs lejanas, lo que significará que estamos en las puertas del desierto. Una hora después de Erfoud llegaremos a las impresionantes Dunas de Merzouga y después del Té de Hospitalidad, dejaremos las maletas en las habitaciones y subiremos a las primeras dunas que están junto al hotel para disfrutar de la preciosa puesta de sol. Alojamiento en Hotel a los pies de las dunas de Erg Chebbi con cena y desayuno.",
+      },
+      {
+        day: 7,
+        title: "Día 7: Desierto de Merzouga – Familias Nómadas – Oasis Safsaf",
+        description:
+          "Después del desayuno saldremos hacia los alrededores de Erg Chebbi y nos encaminaremos al Oasis de SafSaf, muy cerca de la frontera con Argelia (30 km aproximadamente). Durante el trayecto, nos detendremos cuantas veces deseéis para admirar el maravilloso paisaje que recorreremos. Haremos una pausa en el recorrido para visitar a una familia nómada con la que compartiremos un tradicional té bajo la reconfortante sombra de una haima bereber. Después continuaremos hasta llegar a nuestro destino, el Oasis de SafSaf; se trata de un paraje espectacular, encajado entre despoblados altos cerros, aparece un palmeral salvaje con exuberante vegetación atravesado por un río con el mismo nombre (SafSaf) en el que es posible el baño. Es en este paradisíaco entorno es donde almorzaremos y al atardecer regresaremos  al hotel a los pies del en el desierto. Alojamento en Hotel con cena y desayuno.",
+      },
+      {
+        day: 8,
+        title:
+          "Día 8: Erg Chebbi – Khamlia - Paseo en dromedarios - Noche en Haimas",
+        description:
+          "Tras un copioso y rico desayuno, podremos disfrutar de otro día completo en el desierto. Rodearemos el Erg Chebbi, extensión de desierto de arena donde se encuentra la Gran Duna de Marruecos, de más de 250 metros de altitud, y conectaremos por pista con parte de la ruta seguida por el antiguo París-Dakar y con las montañas que limitan con Argelia de fondo. Pararemos en el oasis de Tissardmin donde podremos admirar los fósiles que todavía se encuentran en esta región y seguiremos ruta hacia un asentamiento nómada donde conoceremos algunos de los secretos de su vida y costumbres. Posteriormente pararemos en un punto panorámico donde podremos contemplar el Erg Chebbi en su conjunto. Después llegaremos al pueblo de Khamlia, formado por antiguos esclavos originarios de Mali, donde nos relajaremos con un té mientras disfrutamos de un pequeño concierto de su música tradicional y espiritual de Gnawa. Después regresaremos al hotel para salir en una caravana de dromedarios con la que entraremos en el corazón de las dunas y contemplaremos una puesta de sol inolvidable hasta llegar al campamento donde nos alojaremos en Haimas “tiendas confeccionadas con pelo de dromedario” como las que utilizan los nómadas del desierto. Esta noche disfrutaremos de una cena cena en el corazón del desierto bajo un espectacular manto de estrellas con fiesta de tambores y música bereber alumbrados por una horguera. Alojamiento en Haimas con cena y desayuno.",
+      },
+      {
+        day: 9,
+        title:
+          "Día 9: Desierto de Merzouga – Mercado de Rissani – Gargantas del Todra – Valle del Dadés",
+        description:
+          "Despertamos temprano para nuestra ‘’Cita con el Amanecer‘’ ya que al estar en el desierto es recomendable madrugar para caminar hasta la duna más alta que se encuentre alrededor para contemplar la salida del sol y de este relajante paisaje que nos ofrece la naturaleza antes de regresar en dromedarios a nuestro hotel. Después de un rico desayuno, nos toca despedirnos del desierto y partiremos hacia Rissani donde visitaremos su mercado (si tenemos suerte y es uno de los días de Mercado : Martes, Jueves o Domingo) y seguiremos el camino hacia Erfoud y los palmerales de Touroug y Tinjdad. Una hora más tarde llegaremos a uno de los puntos fuertes del Alto Atlas: Las Gargantas del Todra. El cauce del río Todra ha formado un desfiladero de paredes verticales de enormes proporciones y de gran belleza; es el paraíso de los escaladores y un lugar único. Almuerzaremos en este lugar y realizaremos una caminata de media hora para ver y disfrutar con detalle las Gargantas. Por la tarde continuaremos hacia el Valle del Dadès, también conocido como el Valle de higos, pasando por Boumalne Dadés donde pararemos a observar los ‘’dedos de mono‘’ hasta llegar a las Gargantas del Dadés. Alojamiento en hotel con cena y desayuno.",
+      },
+      {
+        day: 10,
+        title:
+          "Día 10: Valle de Dadés – Valle de Rosas – Boutagrar – Palmeral de Skoura – Ouarzazate",
+        description:
+          "Tras desayunar, podremos disfrutar de una de las mejores vistas del Valle del Dadés desde uno de los lugares más estratégicos que nos ofrecen las montañas. Desde allí podremos observar la cantidad de kasbahs que hay y lo pintoresco de cada una de ellas, después continuaremos hacia una carretera salpicada de Kasbahs de gran interés hasta llegar a la Kasbah de Aït Youl donde haremos un desvío y nos adentraremos por pistas en lo más profundo del Alto Atlas Central, para descubrir paisajes espectaculares. Visitaremos una familia nómada que todavía vive en cuevas en el Valle de Boutagrar donde parece haberse detenido el tiempo. Almuerzaremos en el pueblo del Valle de las Rosas y por la tarde pasaremos por el palmeral de Skoura hasta llegar a Ouarzazate. Alojamiento en Hotel con cena y desayuno.",
+      },
+      {
+        day: 11,
+        title:
+          "Día 11: Ouarzazate – Kasbah de Ait Ben Haddou – Montañas del Alto Atlas – Marrakech",
+        description:
+          "Después del desayuno dedicaremos la mañana a la visita de Ouarzazate: kasbah de Taourirt, Estudios de cine. Luego salimos hacia la Ciudad Fortificada de Ait Ben Haddou, donde visitaremos su famosa Kasbah (Declarada patrimonio de la humanidad por la UNESCO). En este espectacular marco se han rodado películas de tanto renombre como Gladiator, Obelix, Sáhara con Penélope Cruz o Joya del Nilo. Almorzaremos en este magnífico lugar y continuaremos hacia Marrakech pasando por el puerto más alto de Tizi N’ Tichka. Visitaremos una cooperativa de Aceite de argán donde nos explicarán el proceso de elaboración y los innumerables beneficios que este tiene para el cuerpo. Sobre las 18h. llegaremos a Marrakech y tendremos tiempo libre para descubrir la famosa Plaza de Jamaa el Fna. Alojamiento en Hotel con desayuno.",
+      },
+      {
+        day: 12,
+        title: "Día 12: Día Libre en Marrakech",
+        description:
+          "En este día tendréis tiempo para descansar, pasear a vuestras anchas por la ciudad, poner en práctica el arte del regateo por los zocos y descubrir los lugares más recónditos de la medina donde os lleve vuestra curiosidad. Alojamiento en hotel con desayuno.",
+      },
+      {
+        day: 13,
+        title: "Dia 13: Marrakech : Visita de Marrakech con guía local",
+        description:
+          "Tras el desayuno, nuestro guía local de la ciudad os vendrá a buscar al hotel para comenzar la gran visita de la medina de Marrakech, conoceréis los lugares más interesantes y significativos de Marrakech, como la Mezquita de Koutoubia, Madrasa Ben youssef, Jardines de majorell, etc… y por la tarde tendréis tiempo para descansar y salir a la plaza Jamaa el Fna para pasear y disfrutar de la magia de la noche de este emblemático lugar. Alojamiento en hotel con desayuno.",
+      },
+      {
+        day: 14,
+        title: "Día 14: Marrakech – Essaouira",
+        description:
+          "Después del desayuno saldremos de Marrakech hacia la ciudad portuaria de Essaouira, conocida antiguamente con el nombre de Mogador. Essaouira ha vivido el paso de numerosos pueblos, desde los romanos hasta los portugueses, sin olvidar a los árabes y los bereberes. Debido a esta historia, guarda incontables vestigios de estas culturas, ya sea en forma de monumentos o en las costumbres de sus gentes. Podremos admirar su Medina y las fortificaciones portuguesas del siglo XVIII y tendremos tiempo de disfrutar de un relajante paseo o un baño en la playa. Alojamiento en hotel con desayuno",
+      },
+      {
+        day: 15,
+        title: "Día 15: Essaouira – Safi – El Jadida – Casablanca",
+        description:
+          "Después del desayuno podremos rumbo hacia Casablanca por la costa e iremos disfrutando de un paisaje de playas hermosas y vírgenes hasta llegar al pueblo de Jadida donde almorzaremos antes de seguir hasta Casablanca. Alojamiento en Hotel con desayuno.",
+      },
+      {
+        day: 16,
+        title: "Día 16: Casablanca – Aeropuerto",
+        description:
+          "Desayuno y tiempo libre hasta la hora acordada para el traslado al aeropuerto donde les acompañaremos para facturar sus maletas y enseñarles la puerta de embarque y finalizarán nuestros servicios.",
+      },
+    ],
+    accommodation: [
+      "2 Noches en Chaouen con desayuno",
+      "2 Noches en Fez con desayuno",
+      "3 Noches en el desierto con media pensión",
+      "1 Noche en Dades con media pensión",
+      "1 Noche en Ouarzazate con media pensión",
+      "3 Noches en Marrakech con desayuno",
+      "1 Noche en Essaouira con desayuno",
+      "2 Noches en Casablanca con desayuno",
+      "Vehículo privado tipo 4×4",
+      "Guía acompañante de habla hispana durante todo el tour",
+      "Visita con guía local de la ciudad de Fez",
+      "Visita con guía local de la ciudad de Marrakech",
+      "Fiesta bereber en el desierto",
+      "Excursión en dromedarios",
+      "Ruta en 4×4 por el desierto",
+      "Almuerzo típico con familia bereber en el desierto",
+      "Tatuaje de henna típico bereber en las manos",
+      "Recogida y traslado al aeropuerto",
+    ],
+  },
 };
