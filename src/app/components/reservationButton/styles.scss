@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("/fonts/Quicksand-VariableFont_wght.ttf") format("truetype");
+}
+
+.css-button-neumorphic {
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 1px;
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #2e6906;
+  box-shadow: 2px 2px 4px #7b7d81, -1px -1px 3px #fff;
+  color: #e4e1e1;
+}
+.css-button-neumorphic:active {
+  box-shadow: inset 1px 1px 3px #c8d0e7, inset -1px -1px 3px #fff;
+}

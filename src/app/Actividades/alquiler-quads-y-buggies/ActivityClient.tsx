@@ -5,8 +5,15 @@ import Accordion from "@/app/utils/accordion";
 import Image from "next/image";
 import { FaMapLocationDot } from "react-icons/fa6";
 import { FaListUl, FaCheckCircle, FaStar, FaPlusCircle } from "react-icons/fa";
+import ReservationButton from "@/app/components/reservationButton/button";
 export default function ActividadClient() {
-
+  const wspTexts: Record<string, string> = {
+    Merzouga:
+      "Hola, me gustaría reservar un quad o buggy en Merzouga. Por favor, indícame la disponibilidad y los precios. Gracias.",
+    Agafay:
+      "Hola, me gustaría reservar un quad o buggy en Agafay. Por favor, indícame la disponibilidad y los precios. Gracias.",
+    // ...otras ubicaciones
+  };
   return (
     <>
       <div className="mainDivQuads"></div>
@@ -113,6 +120,9 @@ export default function ActividadClient() {
                     </div>
                   </div>
                 )}
+              </div>
+              <div className="flex flex-row justify-center mt-6">
+                <ReservationButton text={wspTexts[item.location]} />
               </div>
             </Accordion>
           ))}

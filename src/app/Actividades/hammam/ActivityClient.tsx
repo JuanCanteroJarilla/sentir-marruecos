@@ -1,6 +1,10 @@
 "use client";
 import "./styles.scss";
+import ReservationButton from "@/app/components/reservationButton/button";
+
 export default function ActividadClient() {
+  const wspText: string =
+    "Hola, me gustaría reservar una sesión de hammam tradicional marroquí. Por favor, indícame la disponibilidad y los precios. Gracias.";
   return (
     <>
       <div className="mainDivHammam"></div>
@@ -29,6 +33,9 @@ export default function ActividadClient() {
             cuidado personal, pero también una forma de conectar con la cultura
             marroquí desde lo más íntimo y auténtico.
           </p>
+        </div>
+        <div className="flex flex-row justify-center mt-6">
+          <ReservationButton text={wspText} />
         </div>
       </div>
     </>

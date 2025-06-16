@@ -12,12 +12,8 @@ export default function GetAccommodation({
 
   return (
     <>
-      <div
-        style={{ background: "linear-gradient(90deg, #fbeee6 0%, #fff 100%)" }}
-      >
-        <div className="flex flex-row justify-center items-center gap-2 mt-8 mb-4 tituloIncluyeRutas">
-          <p>¿Qué incluye esta ruta?</p>
-        </div>
+      
+        
         <div className="flex flex-col justify-center items-center">
           {activities.map((acc, idx) => (
             <div
@@ -29,7 +25,6 @@ export default function GetAccommodation({
             </div>
           ))}
         </div>
-      </div>
     </>
   );
 }
