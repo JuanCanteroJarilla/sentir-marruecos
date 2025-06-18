@@ -39,6 +39,7 @@ export default function ExcursionsList() {
                   </p>
                 </div>
                 <ReservationButton
+                  text={`Hola, me gustaría reservar la excursión: ${exc.subtitle}`}
                   wspText={`Hola, me gustaría reservar la excursión: ${exc.subtitle}`}
                 />
               </div>
