@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Cal Sans";
+  src: url("/fonts/CalSans-Regular.ttf") format("truetype");
+}
+
+.excursionsMainDiv {
+  max-width: 86rem;
+  font-family: 'Cal Sans', sans-serif;
+  font-weight: 100;
+}
+
+.mainDivExcursiones {
+  background-image: url("/images/ait_ben_haddou.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 45vh;
+  position: relative;
+  z-index: 1;
+}

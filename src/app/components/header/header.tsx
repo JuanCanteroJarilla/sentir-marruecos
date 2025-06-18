@@ -9,6 +9,7 @@ import { BsTwitterX } from "react-icons/bs";
 // import useStore from "@/app/store";
 import { usePathname } from "next/navigation";
 
+
 const Header = ({}) => {
   const pathname = usePathname();
   const navTextColor = pathname === "/" ? "text-white" : "text-[#471919]";
@@ -106,7 +107,7 @@ const Header = ({}) => {
               </ul>
             </li>
             <li className="menu-item">
-              <Link className="link" href="">
+              <Link className="link" href="/Excursiones">
                 Excursiones
               </Link>
             </li>
