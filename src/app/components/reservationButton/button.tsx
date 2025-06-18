@@ -8,7 +8,8 @@ type ReservationButtonProps = {
 export default function ReservationButton({ text,wspText }: ReservationButtonProps) {
   const handleClick = () => {
     const phone = "34617700244";
-    const whatsappUrl = `https://wa.me/${phone}?text=${wspText}`;
+    const message = text || wspText
+    const whatsappUrl = `https://wa.me/${phone}?text=${message}`;
     window.open(whatsappUrl, "_blank", "noopener,noreferrer");
   };
 
