@@ -2,6 +2,7 @@
 import "./styles.scss";
 import { FaCalendarCheck } from "react-icons/fa";
 type ReservationButtonProps = {
+  text: string
   wspText?: string; // Este campo es opcional si necesitas un texto específico para WhatsApp
 };
 export default function ReservationButton({ wspText }: ReservationButtonProps) {
