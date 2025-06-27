@@ -28,5 +28,44 @@ Una excursión completa para descubrir lo mejor del sur marroquí en un solo dí
     origin: "Marrakech",
     img: "/images/tiz_tichka.jpg",
   },
-  // ...continúa con el resto de excursiones siguiendo el mismo formato
+  {
+    title: "Essaouira (Desde Marrakech)",
+    subtitle: "ENCANTO ATLÁNTICO DESDE MARRAKECH",
+    description: `Vive una experiencia única con esta excursión de un día desde Marrakech a Essaouira, una ciudad costera llena de encanto, historia y cultura. Situada a unas 2 horas y media, Essaouira te recibe con su medina amurallada (declarada Patrimonio de la Humanidad), su puerto pesquero tradicional y su atmósfera relajada y artística.
+Durante el camino, harás una parada en una cooperativa de mujeres productoras de aceite de argán, donde aprenderás sobre este producto típico de la región.
+Una vez en Essaouira, podrás pasear por sus calles adoquinadas, visitar los talleres de marquetería en madera de tuya, probar marisco fresco junto al puerto o simplemente relajarte en la playa.
+Para quienes buscan un poco más de aventura, Essaouira ofrece emocionantes paseos en quad por la costa o tranquilos recorridos a caballo a orillas del mar, ideales para vivir la ciudad desde otra perspectiva.
+Una excursión completa para disfrutar del mar, la cultura y la naturaleza, perfecta para desconectar del ritmo de Marrakech por un día.`,
+    origin: "Marrakech",
+    img: "/images/Essaouira_Citadel.jpg",
+  },
+  {
+    title: "Valle de Ourika (Desde Marrakech)",
+    subtitle: "",
+    description: `Escápate del bullicio de Marrakech y adéntrate en la tranquilidad del Valle de Ourika, un rincón verde del Alto Atlas ideal para una excursión de un día. A solo 1 hora y media de la ciudad, este valle te sorprenderá con sus paisajes montañosos, ríos cristalinos y pueblos bereberes auténticos.
+Durante la ruta, podrás visitar una casa tradicional bereber, conocer la forma de vida local y hacer una parada en una cooperativa de aceite de argán gestionada por mujeres. Al llegar al corazón del valle, tendrás tiempo para caminar junto al río, disfrutar de la naturaleza o subir hasta las cascadas de Setti Fatma, un atractivo muy popular entre los visitantes.
+Además, podrás degustar la cocina local en alguno de los restaurantes a orillas del río, donde se sirven tajines preparados al estilo tradicional.
+El Valle de Ourika es una excursión ideal para quienes buscan aire puro, paisajes naturales y una conexión auténtica con la cultura rural marroquí, todo en una cómoda escapada de un día desde Marrakech.`,
+    origin: "Marrakech",
+    img: "/images/Ourika.jpg",
+  },
+  {
+    title: "Cascadas de Ouzoud (Desde Marrakech)",
+    subtitle: "",
+    description: `Descubre uno de los paisajes naturales más impresionantes de Marruecos con esta excursión de un día a las Cascadas de Ouzoud, situadas a unas 2 horas y media de Marrakech. Estas espectaculares cascadas, de más de 100 metros de altura, se encuentran en un entorno verde y montañoso, perfecto para los amantes de la naturaleza y la fotografía.
+Durante la visita, podrás bajar hasta el pie de las cascadas, pasear por los senderos rodeados de olivos y palmeras, y si lo deseas, disfrutar de un paseo en barca tradicional que te acerca a la base de la caída de agua. También es común ver a los simpáticos monos de Berbería en libertad por la zona.
+Tendrás tiempo libre para relajarte, darte un baño en las pozas naturales o comer en uno de los restaurantes con vistas panorámicas al valle, donde se sirven platos típicos como tajines o brochetas al carbón.
+Una escapada perfecta para quienes quieren desconectar de la ciudad y sumergirse en un paisaje natural único, ideal para un día diferente desde Marrakech.`,
+    origin: "Marrakech",
+    img: "/images/Ouzoud.jpg",
+  },
+  {
+    title: "Desierto de Agafay",
+    subtitle: "",
+    description: `A solo 45 minutos de Marrakech, el Desierto de Agafay ofrece una experiencia única para quienes desean disfrutar de la tranquilidad y belleza del paisaje desértico sin alejarse demasiado de la ciudad. Este desierto de piedra, con sus colinas y llanuras áridas, es un oasis de calma donde el silencio y el horizonte infinito te envuelven.
+Durante la excursión, podrás realizar paseos en quad, rutas en camello o paseos en 4x4 por las dunas y formaciones rocosas, disfrutando de atardeceres espectaculares que pintan el cielo de tonos dorados y anaranjados. También es posible detenerse en campamentos bereberes para tomar un té tradicional y conocer la cultura local.
+El Desierto de Agafay es la opción perfecta para una aventura cerca de Marrakech, ideal para quienes buscan paisajes impresionantes, actividades emocionantes y momentos de relax en plena naturaleza.`,
+    origin: "",
+    img: "/images/agafay.jpg",
+  },
 ];

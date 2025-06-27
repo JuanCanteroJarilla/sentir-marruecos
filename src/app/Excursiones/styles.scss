@@ -3,6 +3,11 @@
   src: url("/fonts/CalSans-Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Raleway";
+  src: url("/fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+}
+
 .excursionsMainDiv {
   max-width: 86rem;
   font-family: 'Cal Sans', sans-serif;
@@ -17,4 +22,11 @@
   height: 45vh;
   position: relative;
   z-index: 1;
+}
+
+.excursion-description {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  
 }
