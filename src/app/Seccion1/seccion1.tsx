@@ -73,31 +73,31 @@ const Seccion1 = () => {
                   Marrakech
                 </Link>
                 <Link
-                  href="/rutas/desierto"
+                  href="/Rutas?location=Ouarzazate"
                   className="block px-4 py-2 text-white font-semibold hover:bg-white/60 transition"
                 >
                   Ouarzazate
                 </Link>
                 <Link
-                  href="/rutas/atlántico"
+                  href="/Rutas?location=Errachidia"
                   className="block px-4 py-2 text-white font-semibold hover:bg-white/60 rounded-b-xl transition"
                 >
                   Errachidia
                 </Link>
                 <Link
-                  href="/rutas/atlántico"
+                  href="/Rutas?location=Fez"
                   className="block px-4 py-2 text-white font-semibold hover:bg-white/60 rounded-b-xl transition"
                 >
                   Fez
                 </Link>
                 <Link
-                  href="/rutas/atlántico"
+                  href="/Rutas?location=Casablanca"
                   className="block px-4 py-2 text-white font-semibold hover:bg-white/60 rounded-b-xl transition"
                 >
                   Casablanca
                 </Link>
                 <Link
-                  href="/rutas/atlántico"
+                  href="/Rutas?location=Tanger"
                   className="block px-4 py-2 text-white font-semibold hover:bg-white/60 rounded-b-xl transition"
                 >
                   Tanger
