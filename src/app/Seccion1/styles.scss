@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Bonheur Royale";
+  src: url("/fonts/BonheurRoyale-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("/fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("/fonts/Quicksand-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+.titulo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  color: #471919;
+  text-align: left;
+  filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.3)); /* Sombra negra suave */
+}
+
+.subtitulo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #471919;
+  text-align: left;
+  // margin-top: 20px;
+  filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.3)); /* Sombra negra suave */
+}
+
+.cardRutas {
+  height: 68vh;
+  width: 32vw;
+  border-radius: 12px;
+}
+
+.textoFoto {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 2.1rem;
+  color: #fdf9f9;
+  filter: drop-shadow(1px 1px 4px rgba(255, 255, 255, 0.4));
+}
+
+.rutasButton {
+  font-family: "Montserrat", sans-serif;
+}

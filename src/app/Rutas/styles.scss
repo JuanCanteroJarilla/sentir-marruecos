@@ -11,10 +11,14 @@
   font-family: "Bonheur Royale";
   src: url("/fonts/BonheurRoyale-Regular.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
 
 .tituloRutas {
-  font-family: "Bonheur Royale", sans-serif;
-  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   font-size: 3.5rem;
   color: #471919;
   text-align: center;

@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-
+import Seccion1 from "./Seccion1/seccion1";
 export default function Home() {
   const isScrolling = useRef(false); // Para evitar múltiples activaciones
 
@@ -82,7 +82,7 @@ export default function Home() {
         </div>
       </section>
       <section id="rutasMarruecos" style={{ height: "100vh" }}>
-        {/* <CardRutas /> */}
+        <Seccion1 />
       </section>
       <section
         id="otraSeccion"

@@ -8,6 +8,11 @@
   src: url("/fonts/Raleway-VariableFont_wght.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
 .mainDivQuads {
   background-image: url("/images/quad.jpeg");
   background-size: cover;
@@ -19,8 +24,8 @@
 }
 
 .tituloRutas {
-  font-family: "Bonheur Royale", sans-serif;
-  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   font-size: 3.5rem;
   color: #471919;
   text-align: center;
