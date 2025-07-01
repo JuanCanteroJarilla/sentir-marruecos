@@ -4,10 +4,12 @@ import { FaCalendarCheck } from "react-icons/fa";
 type ReservationButtonProps = {
   text?: string;
   wspText?: string; // Este campo es opcional si necesitas un texto específico para WhatsApp
+  buttonText?: string; // Texto del botón, por defecto "RESERVAR AHORA" 
 };
 export default function ReservationButton({
   text,
   wspText,
+  buttonText="RESERVAR AHORA",
 }: ReservationButtonProps) {
   const handleClick = () => {
     const phone = "34617700244";
@@ -23,7 +25,7 @@ export default function ReservationButton({
     >
       <span className="flex items-center justify-center gap-2">
         <FaCalendarCheck size={24} />
-        <span>RESERVAR AHORA</span>
+        <span>{buttonText}</span>
       </span>
     </button>
   );

@@ -112,7 +112,7 @@ const Header = ({}) => {
               </Link>
             </li>
             <li className="menu-item" style={{ borderRight: "none" }}>
-              <Link className="link" href="">
+              <Link className="link" href="/A-medida">
                 A medida
               </Link>
             </li>

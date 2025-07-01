@@ -74,7 +74,7 @@ const Seccion1 = () => {
                 </Link>
                 <Link
                   href="/Rutas?location=Ouarzazate"
-                  className="block px-4 py-2 text-white font-semibold hover:bg-white/60 transition"
+                  className="block px-4 py-2 text-white font-semibold hover:bg-white/60 rounded-t-xl transition"
                 >
                   Ouarzazate
                 </Link>
