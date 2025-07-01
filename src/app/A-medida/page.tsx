@@ -5,11 +5,11 @@ function Amedida() {
   return (
     <>
       <div
-        className="main bg-[url('/images/water_people.jpg')] bg-cover bg-center bg-no-repeat "
+        className="bg-[url('/images/water_people.jpg')] bg-cover bg-center bg-no-repeat"
         style={{ height: "100vh" }}
       >
-        <div className="absolute inset-0 bg-white/25" />{" "}
-        <div className="relative z-10 flex flex-col justify-center items-start h-full pl-12 ">
+        <div className="inset-0 bg-white/25" />
+        <div className="flex flex-col justify-center items-start h-full pl-12 ">
           <p className="titulo">DISEÑAMOS TU VIAJE A MEDIDA</p>
           <div className="max-w-4xl mt-4 bg-white/40 backdrop-blur-md rounded-xl shadow-lg p-6">
             <p className="subtitulo">
