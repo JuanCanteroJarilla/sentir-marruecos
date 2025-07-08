@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Geomanist";
+  src: url("/fonts/geomanist-black.ttf") format("truetype");
+}
+
+.titulo {
+  font-family: "Geomanist", sans-serif;
+  font-weight: 500;
+  font-size: 5.5rem;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.subtitulo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  color: rgb(8, 8, 8);
+}
+
+.mainDivViajarConNinos {
+  background-image: url("/images/kids.png");
+  background-size: cover;
+  background-position: center 35%;
+  background-repeat: no-repeat;
+  height: 45vh;
+  position: relative;
+  z-index: 1;
+}
+
+.queOfrecemos {
+  font-family: "Geomanist", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: black;
+}
+
+.list{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    margin-left: 20px;
+}

@@ -9,7 +9,6 @@ import { BsTwitterX } from "react-icons/bs";
 // import useStore from "@/app/store";
 import { usePathname } from "next/navigation";
 
-
 const Header = ({}) => {
   const pathname = usePathname();
   const navTextColor = pathname === "/" ? "text-white" : "text-[#471919]";
@@ -122,9 +121,30 @@ const Header = ({}) => {
               </Link>
             </li>
             <li className="menu-item">
-              <Link className="link" href="">
-                Especial
-              </Link>
+              <p className="link flex items-center gap-2">
+                Especial <FaChevronDown className="text-sm" />
+              </p>
+              {/* Dropdown */}
+              <ul className="dropdown-menu absolute hidden group-hover:block bg-white shadow-lg rounded-md mt-2 p-2">
+                <li className="dropdown-item">
+                  <Link
+                    className="link"
+                    href="/Especial/viajar-con-ninos"
+                    style={{ color: "#471919" }}
+                  >
+                    Viajar con niños
+                  </Link>
+                </li>
+                {/* <li className="dropdown-item">
+                  <Link
+                    className="link"
+                    href="/Actividades/paseo-en-dromedario"
+                    style={{ color: "#471919" }}
+                  >
+                    Paseo en dromedario
+                  </Link>
+                </li> */}
+              </ul>
             </li>
             {/* <li className="menu-item">
               <Link className="link" href="">
