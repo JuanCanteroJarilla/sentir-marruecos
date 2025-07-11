@@ -3,17 +3,17 @@ import ReservationButton from "@/app/components/reservationButton/button";
 function Yoga() {
   return (
     <>
-      <div className="mainDivViajarConNinos flex flex-col items-start h-screen">
+      <div className="mainDivYogaTop flex flex-col items-start h-screen">
         <div className="mt-72 ml-56 flex flex-col items-start text-white">
           <p className="titulo ">YOGA</p>
         </div>
       </div>
       <div className="flex flex-row">
         <div className="mainDivYoga flex flex-col justify-center">
-          <p className="subtitulo w-[46vw] pl-24">
+          <p className="subtituloYoga w-[46vw] pl-24">
             Organizamos retiros de yoga personalizados en Marruecos.
           </p>
-          <p className="subtitulo w-[34vw] pt-4 pl-24">
+          <p className="subtituloYoga w-[34vw] pt-4 pl-24">
             Un destino ideal para desconectar, reencontrarte contigo mismo y
             conectar con la belleza natural y cultural del país.
           </p>
