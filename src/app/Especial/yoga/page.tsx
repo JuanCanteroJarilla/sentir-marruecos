@@ -5,7 +5,7 @@ function Yoga() {
     <>
       <div className="mainDivYogaTop flex flex-col items-start h-screen">
         <div className="mt-72 ml-56 flex flex-col items-start text-white">
-          <p className="titulo ">YOGA</p>
+          <p className="tituloYoga ">YOGA</p>
         </div>
       </div>
       <div className="flex flex-row">
