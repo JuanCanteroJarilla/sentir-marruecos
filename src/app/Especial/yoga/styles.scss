@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Geomanist";
+  src: url("/fonts/geomanist-black.ttf") format("truetype");
+}
+
+.mainDivYoga {
+  background-image: url("/images/wave-haikei-def.png");
+//   background-color: #ffcf4f;
+  background-size: cover; // o contain, según prefieras
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 900px;
+  height: 744px;
+
+
+
+}
+
+.titulo {
+  font-family: "Geomanist", sans-serif;
+  font-weight: 500;
+  font-size: 8rem;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.subtitulo {
+  font-family: "Geomanist", sans-serif;
+  font-size: 2rem;
+  // letter-spacing: 1px;
+  color: rgb(18 15 15);
+}
+
+.mainDivViajarConNinos {
+  background-image: url("/images/sunset_essaouira.jpg");
+  background-size: cover;
+  background-position: center 35%;
+  background-repeat: no-repeat;
+  height: 45vh;
+  position: relative;
+  z-index: 1;
+}
+
+.queOfrecemos {
+  font-family: "Geomanist", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: black;
+}
+
+.list {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: black;
+  margin-left: 20px;
+}
+
+.list::before {
+  content: "";
+  display: block;
+  width: 6.25rem;
+  height: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: #64ccc9;
+}
+
+.seguridad {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: black;
+  // margin-left: 20px;
+}
+
+.seguridad::before {
+  content: "";
+  display: block;
+  width: 6.25rem;
+  height: 0.5rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  background-color: #64ccc9;
+}
+
+.contactanos {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+
+.titleMedida {
+  font-family: "Geomanist", sans-serif;
+  font-size: 2rem;
+  color: black;
+  text-transform: uppercase;
+}
+
+.footerNiños {
+  background-color: #f4f5f5;
+}

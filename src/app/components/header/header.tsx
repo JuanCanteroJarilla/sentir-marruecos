@@ -135,6 +135,15 @@ const Header = ({}) => {
                     Viajar con niños
                   </Link>
                 </li>
+                <li className="dropdown-item">
+                  <Link
+                    className="link"
+                    href="/Especial/yoga"
+                    style={{ color: "#471919" }}
+                  >
+                    Yoga
+                  </Link>
+                </li>
                 {/* <li className="dropdown-item">
                   <Link
                     className="link"
