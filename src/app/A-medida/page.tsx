@@ -10,9 +10,9 @@ function Amedida() {
       >
         <div className="inset-0 bg-white/25" />
         <div className="flex flex-col justify-center items-start h-full pl-12 ">
-          <p className="titulo">DISEÑAMOS TU VIAJE A MEDIDA</p>
+          <p className="tituloAMedida">DISEÑAMOS TU VIAJE A MEDIDA</p>
           <div className="max-w-4xl mt-4 bg-white/40 backdrop-blur-md rounded-xl shadow-lg p-6">
-            <p className="subtitulo">
+            <p className="subtituloAMedida">
               Tú eres el protagonista de esta historia. Por eso, todas las rutas
               que ofrece Sentir Marruecos pueden personalizarse según tus
               necesidades e intereses. Nos enfocamos en tu bienestar y en el
