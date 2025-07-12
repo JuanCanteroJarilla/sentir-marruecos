@@ -10,15 +10,11 @@
 
 .mainDivYoga {
   background-image: url("/images/wave-haikei-def.png");
-//   background-color: #ffcf4f;
   background-size: cover; // o contain, según prefieras
   background-position: center;
   background-repeat: no-repeat;
   width: 900px;
   height: 744px;
-
-
-
 }
 
 .tituloYoga {
@@ -32,7 +28,6 @@
 .subtituloYoga {
   font-family: "Geomanist", sans-serif;
   font-size: 2rem;
-  // letter-spacing: 1px;
   color: rgb(18 15 15);
 }
 
@@ -74,7 +69,6 @@
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   color: black;
-  // margin-left: 20px;
 }
 
 .seguridad::before {

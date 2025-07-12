@@ -1,4 +1,4 @@
-import "./styles.scss";
+import "./stylesNinos.scss";
 import { RiRoadMapFill } from "react-icons/ri";
 import { FaChildReaching } from "react-icons/fa6";
 import { FaBusAlt } from "react-icons/fa";
@@ -15,7 +15,7 @@ function ViajarConNiños() {
           <p className="titulo m-0 leading-none">Niños</p>
         </div>
       </div>
-      <div className="flex flex-col pt-10 text-center">
+      <div className="flex flex-col pt-10">
         <p className="subtitulo drop-shadow-lg">
           Viajar a Marruecos con niños puede ser una aventura inolvidable si se
           planifica bien. En nuestros viajes guiados privados y personalizados,
