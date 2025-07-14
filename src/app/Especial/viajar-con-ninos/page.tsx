@@ -9,7 +9,7 @@ function ViajarConNiños() {
   return (
     <>
       <div className="mainDivViajarConNinos flex flex-col items-start h-screen">
-        <div className="mt-24 sm:mt-32 md:mt-40 lg:mt-43 2xl:mt-65 ml-4 sm:ml-16 md:ml-32 lg:ml-56 flex flex-col items-start text-white">
+        <div className="mt-24 sm:mt-32 md:mt-40 lg:mt-40 2xl:mt-38 ml-4 sm:ml-16 md:ml-32 lg:ml-56 flex flex-col items-start text-white">
           <p className="titulo m-0 leading-none text-4xl sm:text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl">
             Viajar
           </p>
