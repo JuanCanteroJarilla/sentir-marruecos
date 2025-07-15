@@ -38,7 +38,7 @@ function SobreNosotros() {
             por nuestra tierra.
           </p>
         </div>
-        <div className="mt-100">
+        <div className="mt-90">
           <Image
             src={"/images/salem.png"}
             alt={`Rutas`}
@@ -48,7 +48,7 @@ function SobreNosotros() {
           />
         </div>
       </div>
-      <div className="flex flex-row justify-center items-center mb-20 max-w-[60vw] mx-auto">
+      <div className="divTitleFooter flex flex-row justify-center items-center mb-20 max-w-[60vw] mx-auto bg-gray-100 rounded-xl">
         <p className="titleFooter text-2xl p-4">
           Juntos, trabajamos para ofrecerte una experiencia real, cálida y
           enriquecedora. Te invitamos a vivir esta aventura con nosotros. A
