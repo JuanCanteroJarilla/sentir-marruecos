@@ -10,15 +10,9 @@ function ViajarConNiños() {
     <>
       <div className="mainDivViajarConNinos flex flex-col items-start h-screen">
         <div className="mt-24 sm:mt-32 md:mt-40 lg:mt-40 2xl:mt-38 ml-4 sm:ml-16 md:ml-32 lg:ml-56 flex flex-col items-start text-white">
-          <p className="titulo m-0 leading-none text-4xl sm:text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl">
-            Viajar
-          </p>
-          <p className="titulo m-0 leading-none text-4xl sm:text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl">
-            Con
-          </p>
-          <p className="titulo m-0 leading-none text-4xl sm:text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl">
-            Niños
-          </p>
+          <p className="titulo m-0 leading-none">Viajar</p>
+          <p className="titulo m-0 leading-none">Con</p>
+          <p className="titulo m-0 leading-none">Niños</p>
         </div>
       </div>
       <div className="flex flex-col pt-10">

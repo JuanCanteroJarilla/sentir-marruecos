@@ -14,6 +14,26 @@
   // font-size: 5.5rem;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
+
+  @media (min-width: 640px) {
+    // sm
+    font-size: 3rem; // text-5xl
+  }
+
+  @media (min-width: 768px) {
+    // md
+    font-size: 3.75rem; // text-6xl
+  }
+
+  @media (min-width: 1024px) {
+    // lg
+    font-size: 4.5rem; // text-7xl
+  }
+
+  @media (min-width: 1536px) {
+    // 2xl
+    font-size: 6rem; // text-8xl
+  }
 }
 
 .subtitulo {
@@ -21,8 +41,8 @@
   font-size: 1.5rem;
   letter-spacing: 1px;
   color: rgb(8, 8, 8);
-  text-align: center;      // <-- Añade esto
-  margin: 0 auto 2rem;     // <-- Centra y da margen inferior
+  text-align: center; // <-- Añade esto
+  margin: 0 auto 2rem; // <-- Centra y da margen inferior
   display: block;
 }
 
@@ -80,7 +100,6 @@
 .contactanos {
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
-
 }
 
 .titleMedida {
@@ -92,5 +111,4 @@
 
 .footerNiños {
   background-color: #f4f5f5;
-
 }
