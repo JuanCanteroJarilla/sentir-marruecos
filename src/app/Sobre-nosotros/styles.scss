@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Geomanist";
+  src: url("/fonts/geomanist-black.ttf") format("truetype");
+}
+
+.mainDivSobreNosotros {
+  background-image: url("/images/marruecos_sobre_nosotros.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 45vh;
+  position: relative;
+  z-index: 1;
+}
+
+.titleSobreNosotros {
+  font-family: "Geomanist", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  text-align: center; // Centra el texto
+  margin-top: 2rem; // Añade margen superior
+}
+
+.subtitleTitleSobreNosotros {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  color: rgb(8, 8, 8);
+  text-align: center; // Centra el texto
+  margin: 0 auto 2rem; // Centra y da margen inferior
+  display: block;
+}
+
+.salemText {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+  text-align: center; // Centra el texto
+  margin: 1rem auto; // Añade margen superior e inferior
+}
+
+.titleFooter{
+    font-family: "Geomanist", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    text-align: center; // Centra el texto
+    // margin-top: 2rem; // Añade margen superior
+}
