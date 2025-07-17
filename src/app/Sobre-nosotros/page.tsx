@@ -3,18 +3,19 @@ import Image from "next/image";
 function SobreNosotros() {
   return (
     <>
-      <div className="mainDivSobreNosotros flex flex-col items-start h-screen">
-        <div className="bg-white mt-[20rem] max-w-[24rem] ml-4 sm:ml-16 md:ml-32 lg:ml-56">
-          <p className="titleSobreNosotros text-5xl">
-            Bienvenidos a Sentir Marruecos Viajes.
-          </p>
-          <p className="subtitleTitleSobreNosotros">
-            Esta agencia nace de años de experiencia, dedicación y un profundo
-            amor por la cultura y las tradiciones de nuestro país.
-          </p>
+      <div className="bg-[#bedcfd] h-[240vh] w-full">
+        <div className="mainDivSobreNosotros flex flex-col items-start h-screen">
+          <div className="bg-white mt-[20rem] max-w-[24rem] ml-4 sm:ml-16 md:ml-32 lg:ml-56 rounded-[3rem] pt-4 pl-4 pr-4 shadow-lg">
+            <p className="titleSobreNosotros text-5xl">
+              Bienvenidos a Sentir Marruecos Viajes.
+            </p>
+            <p className="subtitleTitleSobreNosotros">
+              Esta agencia nace de años de experiencia, dedicación y un profundo
+              amor por la cultura y las tradiciones de nuestro país.
+            </p>
+          </div>
         </div>
-      </div>
-      <div className="h-screen w-full flex flex-row justify-center gap-4">
+        {/* <div className="h-screen w-full flex flex-row justify-center gap-4">
         <div className="mt-86 max-w-[60vw]">
           <p className="salemText ">
             Soy Salem, un bereber del desierto de Merzouga. Nací y crecí en el
@@ -38,26 +39,60 @@ function SobreNosotros() {
             por nuestra tierra.
           </p>
         </div>
-        <div className="mt-90">
-          <Image
-            src={"/images/salem.png"}
-            alt={`Rutas`}
-            width={400} // Ajusta el ancho según tu diseño
-            height={280} // Ajusta el alto según tu diseño
-            className="rounded-lg "
-          />
+        
+      </div> */}
+        <div className=" w-[86vw] flex flex-row justify-center items-start mt-[45vh] bg-white mx-auto rounded-[3rem] shadow-lg">
+          <div className="flex items-center justify-center w-[950px] h-[500px] overflow-hidden">
+            <Image
+              src={"/images/salem.png"}
+              alt={`Rutas`}
+              width={950}
+              height={348}
+              className="rounded-[3rem] w-full h-full object-cover"
+            />
+          </div>
+          <div className="gap-4 p-12 w-[100vw]">
+            <p className="salemTitle">
+              Soy Salem, un bereber del desierto de Merzouga. Nací y crecí en el
+              corazón del Sáhara, en una familia nómada que ha recorrido sus
+              dunas durante generaciones. <br />
+            </p>
+            <p className="salemSubtitle pt-20">
+              Mi infancia transcurrió entre caravanas de dromedarios, cielos
+              estrellados y la sabiduría de un pueblo que vive en armonía con la
+              tierra. Fue ahí donde aprendí a amar profundamente nuestra cultura
+              y la hospitalidad que nos define. Con el tiempo, me adentré en el
+              mundo del turismo. Trabajé en distintas áreas, conociendo cada
+              rincón del desierto, sus paisajes, sus historias y todo lo que
+              hace única a la cultura bereber.
+            </p>
+          </div>
         </div>
-      </div>
-      <div className="divTitleFooter flex flex-row justify-center items-center mb-20 max-w-[60vw] mx-auto bg-gray-100 rounded-xl">
-        <p className="titleFooter text-2xl p-4">
-          Juntos, trabajamos para ofrecerte una experiencia real, cálida y
-          enriquecedora. Te invitamos a vivir esta aventura con nosotros. A
-          descubrir la magia de Marruecos, sus costumbres, su historia y la
-          belleza de sus paisajes. Queremos que cada momento se convierta en un
-          recuerdo inolvidable.
-          <br />
-          ¡Bienvenidos a Sentir Marruecos Viajes!
-        </p>
+        <div className=" w-[86vw] flex flex-row justify-center items-start mt-[20vh] mb-[2vh] bg-white mx-auto rounded-[3rem] shadow-lg">
+          <div className="gap-4 p-12 w-[100vw]">
+            <p className="salemTitle">
+              Aquí, cada viaje es más que una ruta: es una oportunidad de
+              conectar con nuestra comunidad, nuestra historia y nuestras
+              tradiciones. <br />
+            </p>
+            <p className="salemSubtitle pt-32">
+              Este proyecto es posible gracias a un equipo excepcional, formado
+              por amigos y locales que comparten mi pasión por mostrar un
+              Marruecos auténtico y cercano. También se han sumado personas
+              nuevas que aportan sus ganas, su energía, talento y el amor por
+              nuestra tierra.
+            </p>
+          </div>
+          <div className="flex items-center justify-center w-[950px] h-[500px] overflow-hidden">
+            <Image
+              src={"/images/Campamento Merzouga.jpg"}
+              alt={`Rutas`}
+              width={950}
+              height={348}
+              className="rounded-[3rem] w-full h-full object-cover"
+            />
+          </div>
+        </div>
       </div>
     </>
   );
