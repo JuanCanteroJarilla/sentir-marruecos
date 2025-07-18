@@ -6,7 +6,7 @@ function SobreNosotros() {
       <div className="bg-[#bedcfd] h-[240vh] w-full">
         <div className="mainDivSobreNosotros flex flex-col items-start h-screen">
           <div className="bg-white mt-[20rem] max-w-[24rem] ml-4 sm:ml-16 md:ml-32 lg:ml-56 rounded-[3rem] pt-4 pl-4 pr-4 shadow-lg">
-            <p className="titleSobreNosotros text-5xl">
+            <p className="titleSobreNosotros 2xl:text-5xl lg:text-4xl">
               Bienvenidos a Sentir Marruecos Viajes.
             </p>
             <p className="subtitleTitleSobreNosotros">
@@ -41,7 +41,7 @@ function SobreNosotros() {
         </div>
         
       </div> */}
-        <div className=" w-[86vw] flex flex-row justify-center items-start mt-[45vh] bg-white mx-auto rounded-[3rem] shadow-lg">
+        <div className=" w-[86vw] flex flex-row justify-center items-start 2xl:mt-[45vh] lg:mt-[54vh] bg-white mx-auto rounded-[3rem] shadow-lg">
           <div className="flex items-center justify-center w-[950px] h-[500px] overflow-hidden">
             <Image
               src={"/images/salem.png"}
@@ -52,12 +52,12 @@ function SobreNosotros() {
             />
           </div>
           <div className="gap-4 p-12 w-[100vw]">
-            <p className="salemTitle">
+            <p className="salemTitle lg:text-3xl 2xl:text-4xl">
               Soy Salem, un bereber del desierto de Merzouga. Nací y crecí en el
               corazón del Sáhara, en una familia nómada que ha recorrido sus
               dunas durante generaciones. <br />
             </p>
-            <p className="salemSubtitle pt-20">
+            <p className="salemSubtitle pt-20 2xl:text-[1.4rem] lg:text-[1rem]">
               Mi infancia transcurrió entre caravanas de dromedarios, cielos
               estrellados y la sabiduría de un pueblo que vive en armonía con la
               tierra. Fue ahí donde aprendí a amar profundamente nuestra cultura
@@ -68,14 +68,14 @@ function SobreNosotros() {
             </p>
           </div>
         </div>
-        <div className=" w-[86vw] flex flex-row justify-center items-start mt-[20vh] mb-[2vh] bg-white mx-auto rounded-[3rem] shadow-lg">
+        <div className=" w-[86vw] flex flex-row justify-center items-start 2xl:mt-[20vh] lg:mt-[12vh] mb-[2vh] bg-white mx-auto rounded-[3rem] shadow-lg">
           <div className="gap-4 p-12 w-[100vw]">
-            <p className="salemTitle">
+            <p className="salemTitle lg:text-3xl 2xl:text-4xl">
               Aquí, cada viaje es más que una ruta: es una oportunidad de
               conectar con nuestra comunidad, nuestra historia y nuestras
               tradiciones. <br />
             </p>
-            <p className="salemSubtitle pt-32">
+            <p className="salemSubtitle pt-32 2xl:text-[1.4rem] lg:text-[1rem]">
               Este proyecto es posible gracias a un equipo excepcional, formado
               por amigos y locales que comparten mi pasión por mostrar un
               Marruecos auténtico y cercano. También se han sumado personas
