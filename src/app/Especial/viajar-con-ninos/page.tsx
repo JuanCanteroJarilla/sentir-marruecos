@@ -131,7 +131,7 @@ function ViajarConNiños() {
         <Image
           src="/images/wave-haikei.svg"
           alt=""
-          className="w-full block h-64"
+          className="w-full block"
           width={1920}
           height={256}
           priority

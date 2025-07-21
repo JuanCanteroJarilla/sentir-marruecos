@@ -27,7 +27,7 @@
 
   @media (min-width: 1024px) {
     // lg
-    font-size: 4.5rem; // text-7xl
+    font-size: 4.7rem; // text-7xl
   }
 
   @media (min-width: 1536px) {
@@ -44,6 +44,12 @@
   text-align: center; // <-- Añade esto
   margin: 0 auto 2rem; // <-- Centra y da margen inferior
   display: block;
+
+   @media (min-width: 1024px) {
+    // lg
+    font-size: 1.2rem; // text-7xl
+  }
+
 }
 
 .mainDivViajarConNinos {
