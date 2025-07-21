@@ -1,4 +1,4 @@
-import "./styles.scss";
+import "./stylesYoga.scss";
 import ReservationButton from "@/app/components/reservationButton/button";
 function Yoga() {
   return (
