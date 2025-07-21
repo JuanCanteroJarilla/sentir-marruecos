@@ -4,7 +4,7 @@ function Yoga() {
   return (
     <>
       <div className="mainDivYogaTop flex flex-col items-start h-screen">
-        <div className="mt-72 ml-56 flex flex-col items-start text-white">
+        <div className="2xl:mt-72 lg:mt-59 ml-56 flex flex-col items-start text-white">
           <p className="tituloYoga ">YOGA</p>
         </div>
       </div>
@@ -18,9 +18,9 @@ function Yoga() {
             conectar con la belleza natural y cultural del país.
           </p>
         </div>
-        <div className="flex flex-row mt-22 ml-4">
+        <div className="flex flex-row 2xl:mt-22 lg:mt-8 ml-4">
           <p className="queOfrecemos mt-[14vh]">¿Qué ofrecemos?</p>
-          <ul className="list-disc list pt-32 pl-8 text-xl gap-2">
+          <ul className="list-disc list pt-32 pl-8 gap-2">
             <li className="">
               <p>
                 <strong>Retiros de yoga a medida: </strong>programas diseñados
@@ -58,7 +58,7 @@ function Yoga() {
             </li>
             <li className="pt-10 list-none ">
               <div>
-                <ReservationButton text="¡Hola! Me gustaría reservar una experiencia de yoga"/>
+                <ReservationButton text="¡Hola! Me gustaría reservar una experiencia de yoga" />
               </div>
             </li>
           </ul>

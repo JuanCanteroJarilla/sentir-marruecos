@@ -15,6 +15,11 @@
   background-repeat: no-repeat;
   width: 900px;
   height: 744px;
+
+  @media (min-width: 1024px) {
+    // lg
+    height: 654px;
+  }
 }
 
 .tituloYoga {
@@ -47,13 +52,28 @@
   font-size: 2rem;
   text-transform: uppercase;
   color: black;
+
+  @media (min-width: 1024px) {
+    // lg
+    font-size: 1.8rem;
+  }
 }
 
 .list {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: black;
   margin-left: 20px;
+
+   @media (min-width: 1024px) {
+    // lg
+    font-size: 1rem;
+  }
+
+  @media (min-width: 1536px) {
+    // lg
+    font-size: 1.1rem;
+  }
 }
 
 .list::before {
