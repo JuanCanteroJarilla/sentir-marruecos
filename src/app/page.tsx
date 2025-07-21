@@ -9,38 +9,39 @@ export default function Home() {
     const sections = Array.from(document.querySelectorAll("section"));
 
     const handleScroll = (event: WheelEvent) => {
-      event.preventDefault(); // Evita el scroll nativo
-      if (isScrolling.current) return; // Evitar múltiples activaciones
+      event.preventDefault();
+      if (isScrolling.current) return;
       isScrolling.current = true;
 
       const currentScrollY = window.scrollY;
 
-      // Encontrar la sección actual
-      const currentIndex = sections.findIndex((section) => {
-        const sectionTop = section.offsetTop;
-        const sectionHeight = section.offsetHeight;
-        return (
-          currentScrollY >= sectionTop - sectionHeight / 2 &&
-          currentScrollY < sectionTop + sectionHeight / 2
-        );
+      // Encuentra la sección más cercana al scroll actual
+      let currentIndex = 0;
+      let minDistance = Infinity;
+      sections.forEach((section, idx) => {
+        const distance = Math.abs(section.offsetTop - currentScrollY);
+        if (distance < minDistance) {
+          minDistance = distance;
+          currentIndex = idx;
+        }
       });
 
-      // Detectar la dirección del scroll
       const isScrollingDown = event.deltaY > 0;
 
-      // Desplazarse a la siguiente o anterior sección
-      const targetSection = isScrollingDown
-        ? sections[currentIndex + 1]
-        : sections[currentIndex - 1];
+      let targetSection = null;
+      if (isScrollingDown && currentIndex < sections.length - 1) {
+        targetSection = sections[currentIndex + 1];
+      } else if (!isScrollingDown && currentIndex > 0) {
+        targetSection = sections[currentIndex - 1];
+      }
 
       if (targetSection) {
         targetSection.scrollIntoView({ behavior: "smooth" });
       }
 
-      // Permitir el siguiente scroll después de un pequeño retraso
       setTimeout(() => {
         isScrolling.current = false;
-      }, 800); // Ajusta el tiempo según sea necesario
+      }, 800);
     };
 
     window.addEventListener("wheel", handleScroll, { passive: false });
@@ -81,14 +82,8 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
-      <section id="rutasMarruecos" style={{ height: "100vh" }}>
+      <section id="rutasMarruecos">
         <Seccion1 />
-      </section>
-      <section
-        id="otraSeccion"
-        style={{ height: "100vh", backgroundColor: "#f0f0f0" }}
-      >
-        {/* <h2>Otra Sección</h2> */}
       </section>
     </>
   );
