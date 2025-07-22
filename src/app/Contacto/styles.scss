@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Geomanist";
+  src: url("/fonts/geomanist-black.ttf") format("truetype");
+}
+
+.titleDiseñamos{
+    font-family: "Geomanist", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-align: center; // Centra el texto
+    margin-bottom: 1rem; // Añade margen inferior
+}
+
+.textDiseñamos{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    text-align: center; // Centra el texto
+    margin-bottom: 1rem; // Añade margen inferior
+}
