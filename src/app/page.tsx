@@ -2,8 +2,9 @@
 import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import Seccion1 from "./Seccion1/seccion1";
+
 export default function Home() {
-  const isScrolling = useRef(false); // Para evitar múltiples activaciones
+  const isScrolling = useRef(false);
 
   useEffect(() => {
     const sections = Array.from(document.querySelectorAll("section"));
@@ -15,7 +16,6 @@ export default function Home() {
 
       const currentScrollY = window.scrollY;
 
-      // Encuentra la sección más cercana al scroll actual
       let currentIndex = 0;
       let minDistance = Infinity;
       sections.forEach((section, idx) => {
@@ -50,18 +50,25 @@ export default function Home() {
 
   return (
     <>
-      {/* <Header alwaysVisible={false} /> */}
-      <section id="home" style={{ height: "100vh" }}>
-        <div className="mainBox flex items-center justify-center h-screen">
+      <section
+        id="home"
+        className="min-h-screen flex items-center justify-center"
+        style={{ height: "100vh" }}
+      >
+        <div className="mainBox flex flex-col items-center justify-center h-full w-full">
           <motion.div
             className="mainText text-center"
-            style={{ maxWidth: "68vw", position: "relative", top: "-10vh" }}
+            style={{
+              maxWidth: "90vw",
+              position: "relative",
+              top: "0",
+            }}
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
             <motion.p
-              className="text-xl"
+              className="text-xl sm:text-2xl md:text-3xl"
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, delay: 0.5 }}
@@ -72,7 +79,7 @@ export default function Home() {
               con nuestros tours cuidadosamente diseñados.
             </motion.p>
             <motion.p
-              className="mainText2"
+              className="mainText2 mt-6 text-lg sm:text-xl"
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, delay: 1 }}

@@ -9,13 +9,14 @@ const Seccion1 = () => {
       <div className="relative h-screen flex justify-center">
         {/* Overlay de fondo */}
         <div className="absolute inset-0 bg-[url('/images/essaouira4.jpg')] bg-cover bg-center bg-no-repeat" />
-        <div className="absolute inset-0 bg-white/88" />{" "}
-        {/* Opacidad del fondo */}
+        <div className="absolute inset-0 bg-white/88" />
         {/* Contenido */}
-        <div className="relative h-screen flex flex-row justify-between items-center w-full pl-12">
-          <div>
-            <p className="titulo">Viajes a Marruecos - Destinos populares</p>
-            <p className="subtitulo md:max-w-[60rem]">
+        <div className="relative h-screen flex flex-col md:flex-row justify-between items-center w-full px-4 md:pl-12 gap-4">
+          <div className="mb-8 md:mb-0 md:w-2/3">
+            <p className="titulo text-xl md:text-3xl mb-4">
+              Viajes a Marruecos - Destinos populares
+            </p>
+            <p className="subtituloSeccion1 md:max-w-[60rem] text-base md:text-lg">
               En Sentir Marruecos, nos comprometemos a proporcionar experiencias
               de viaje excepcionales que van más allá de lo ordinario. Nuestros
               viajes están diseñados para sumergirle en la belleza, la cultura y
@@ -23,30 +24,33 @@ const Seccion1 = () => {
               comodidad y seguridad.
             </p>
           </div>
-          <div className="cardRutas mr-16 flex flex-col items-center justify-center relative w-80 h-56 ">
+          <div className="cardRutas mb-8 md:mb-0 md:mr-16 flex flex-col items-center justify-center relative w-full h-56">
             <div className="absolute rounded-2xl inset-0 bg-[url('/images/rutas-card.jpg')] bg-cover bg-center bg-no-repeat z-0" />
-            <div className="absolute inset-0 bg-white/15" />{" "}
-            <p className="textoFoto z-10 relative">
+            <div className="absolute inset-0 bg-white/15" />
+            <p className="textoFoto z-10 relative text-center">
               ¡Haz clic y descubre nuestras rutas!
             </p>
             <button
               onClick={() => setOpen((v) => !v)}
               className="
-          px-8 py-3 mt-4
-          rounded-xl
-          bg-white/30
-          backdrop-blur-md
-          shadow-lg
-          border border-white/40
-          text-white font-semibold
-          flex items-center gap-2
-          transition
-          hover:bg-white/50
-          hover:shadow-xl
-          hover:scale-105
-          duration-200
-          rutasButton
-        "
+                px-8 py-3 mt-4
+                rounded-xl
+                bg-white/30
+                backdrop-blur-md
+                shadow-lg
+                border border-white/40
+                text-white font-semibold
+                flex items-center gap-2
+                transition
+                hover:bg-white/50
+                hover:shadow-xl
+                hover:scale-105
+                duration-200
+                rutasButton
+                w-full
+                max-w-[220px]
+                justify-center
+              "
             >
               Explorar rutas desde...
               <svg
@@ -65,7 +69,7 @@ const Seccion1 = () => {
               </svg>
             </button>
             {open && (
-              <div className="absolute rutasButton left-1/2 top-92 mt-2 w-56 rounded-xl shadow-lg bg-white/30 backdrop-blur-md border border-white/40 z-20 -translate-x-1/2 ">
+              <div className="absolute rutasButton left-1/2 top-90 mt-2 w-56 rounded-xl shadow-lg bg-white/30 backdrop-blur-md border border-white/40 z-20 -translate-x-1/2 ">
                 <Link
                   href="/Rutas?location=Marrakech"
                   className="block px-4 py-2 text-white font-semibold hover:bg-white/60 rounded-t-xl transition"
@@ -74,25 +78,25 @@ const Seccion1 = () => {
                 </Link>
                 <Link
                   href="/Rutas?location=Ouarzazate"
-                  className="block px-4 py-2 text-white font-semibold hover:bg-white/60 rounded-t-xl transition"
+                  className="block px-4 py-2 text-white font-semibold hover:bg-white/60 transition"
                 >
                   Ouarzazate
                 </Link>
                 <Link
                   href="/Rutas?location=Errachidia"
-                  className="block px-4 py-2 text-white font-semibold hover:bg-white/60 rounded-b-xl transition"
+                  className="block px-4 py-2 text-white font-semibold hover:bg-white/60 transition"
                 >
                   Errachidia
                 </Link>
                 <Link
                   href="/Rutas?location=Fez"
-                  className="block px-4 py-2 text-white font-semibold hover:bg-white/60 rounded-b-xl transition"
+                  className="block px-4 py-2 text-white font-semibold hover:bg-white/60 transition"
                 >
                   Fez
                 </Link>
                 <Link
                   href="/Rutas?location=Casablanca"
-                  className="block px-4 py-2 text-white font-semibold hover:bg-white/60 rounded-b-xl transition"
+                  className="block px-4 py-2 text-white font-semibold hover:bg-white/60 transition"
                 >
                   Casablanca
                 </Link>

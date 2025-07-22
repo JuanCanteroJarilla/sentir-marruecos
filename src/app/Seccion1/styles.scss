@@ -28,7 +28,7 @@
   filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.3)); /* Sombra negra suave */
 }
 
-.subtitulo {
+.subtituloSeccion1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -55,3 +55,52 @@
 .rutasButton {
   font-family: "Montserrat", sans-serif;
 }
+
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .subtituloSeccion1 {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .cardRutas {
+    width: 90vw;
+    min-width: 0;
+    // height: 260px;
+    margin: 0 auto 2rem auto;
+  }
+  .textoFoto {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .rutasButton {
+    top: 65% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .titulo {
+    font-size: 1.3rem;
+  }
+  .subtituloSeccion1 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .cardRutas {
+    // height: 200px;
+  }
+}
+
+// @media (max-width: 768px) {
+//   .mb-8 {
+//     margin-bottom: 1rem !important;
+//   }
+//   .md\:mb-0 {
+//     margin-bottom: 0 !important;
+//   }
+//   .relative.h-screen.flex.flex-col.md\:flex-row.justify-between.items-center.w-full.px-4.md\:pl-12 {
+//     gap: 1.5rem !important;
+//   }
+// }

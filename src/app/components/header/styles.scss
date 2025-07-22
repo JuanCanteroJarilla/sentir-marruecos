@@ -126,3 +126,55 @@ html,body{
     display: block;
   }
 }
+
+// ...existing code...
+
+// Oculta el menú principal en móvil, muestra el botón hamburguesa
+@media (max-width: 767px) {
+  .main-menu {
+    display: none !important;
+  }
+  .social-links {
+    display: none !important;
+  }
+}
+
+// Menú móvil (panel lateral)
+@media (max-width: 767px) {
+  .mobile-menu {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80vw;
+    max-width: 320px;
+    height: 100vh;
+    background: #fff;
+    z-index: 50;
+    padding: 2rem 1.5rem;
+    box-shadow: 2px 0 16px rgba(0,0,0,0.15);
+    overflow-y: auto;
+    transition: transform 0.3s;
+  }
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 1.2rem;
+  }
+  .mobile-menu .social {
+    font-size: 1.5rem;
+  }
+}
+
+// Fondo oscuro tras menú móvil abierto
+@media (max-width: 767px) {
+  .mobile-menu-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 40;
+  }
+}
+
+// ...existing code...
