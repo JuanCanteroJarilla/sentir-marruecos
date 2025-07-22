@@ -28,6 +28,7 @@
   font-size: 8rem;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
+  margin-top: 2rem;
 }
 
 .subtituloYoga {
@@ -115,4 +116,65 @@
 
 .footerNiños {
   background-color: #f4f5f5;
+}
+
+@media (max-width: 640px) {
+  .mainDivYogaTop {
+    height: 32vh;
+    min-height: 100px;
+    background-position: center 50%;
+  }
+
+  .tituloYoga {
+    font-size: 4rem;
+    margin-left: 0.5rem;
+    text-align: left;
+    margin-top: 8rem;
+  }
+
+  .mainDivYoga {
+    width: 100vw;
+    min-width: 0;
+    height: auto;
+    background-size: cover;
+    padding: 0;
+  }
+
+  .subtituloYoga {
+    font-size: 1.1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: left;
+  }
+
+  .queOfrecemos {
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    padding-left: 0.5rem;
+  }
+
+  .list {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+  .list::before {
+    width: 3rem;
+    height: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .contactanos,
+  .titleMedida {
+    font-size: 1.1rem;
+    padding: 0 0.2rem;
+    text-align: center;
+  }
+  .reservation-btn-wrapper {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
 }

@@ -3,25 +3,25 @@ import ReservationButton from "@/app/components/reservationButton/button";
 function Yoga() {
   return (
     <>
-      <div className="mainDivYogaTop flex flex-col items-start h-screen">
-        <div className="2xl:mt-72 lg:mt-59 ml-56 flex flex-col items-start text-white">
-          <p className="tituloYoga ">YOGA</p>
+      <div className="mainDivYogaTop flex flex-col sm:h-[42vh] w-full">
+        <div className="mt-8 ml-4 sm:ml-10 md:ml-32 sm:mt-24 lg:ml-56 2xl:mt-64 lg:mt-59 flex flex-col text-white">
+          <p className="tituloYoga">YOGA</p>
         </div>
       </div>
-      <div className="flex flex-row">
-        <div className="mainDivYoga flex flex-col justify-center">
-          <p className="subtituloYoga w-[46vw] pl-24">
+      <div className="flex flex-col lg:flex-row w-full">
+        <div className="mainDivYoga flex flex-col justify-center w-full">
+          <p className="subtituloYoga w-full sm:w-[46vw] pl-0 sm:pl-24">
             Organizamos retiros de yoga personalizados en Marruecos.
           </p>
-          <p className="subtituloYoga w-[34vw] pt-4 pl-24">
+          <p className="subtituloYoga w-full sm:w-[34vw] pt-4 pl-0 sm:pl-24">
             Un destino ideal para desconectar, reencontrarte contigo mismo y
             conectar con la belleza natural y cultural del país.
           </p>
         </div>
-        <div className="flex flex-row 2xl:mt-22 lg:mt-8 ml-4">
-          <p className="queOfrecemos mt-[14vh]">¿Qué ofrecemos?</p>
-          <ul className="list-disc list pt-32 pl-8 gap-2">
-            <li className="">
+        <div className="flex flex-col sm:flex-row w-full 2xl:mt-22 lg:mt-8 ml-0 sm:ml-4">
+          <p className="queOfrecemos mt-8 sm:mt-[14vh]">¿Qué ofrecemos?</p>
+          <ul className="list-disc list pt-4 sm:pt-32 pl-4 sm:pl-8 gap-2">
+            <li>
               <p>
                 <strong>Retiros de yoga a medida: </strong>programas diseñados
                 para grupos pequeños, adaptados a todos los niveles y estilos
@@ -56,21 +56,13 @@ function Yoga() {
                 <br /> para una experiencia segura y relajante
               </p>
             </li>
-            <li className="pt-10 list-none ">
-              <div>
+            <li className="list-none">
+              <div className="flex justify-center w-full reservation-btn-wrapper mt-10 sm:mt-10">
                 <ReservationButton text="¡Hola! Me gustaría reservar una experiencia de yoga" />
               </div>
             </li>
           </ul>
         </div>
-        {/* <Image
-          src="/images/wave-haikei-yoga.svg"
-          alt=""
-          className="w-full block"
-          width={960}
-          height={540}
-          priority
-          /> */}
       </div>
     </>
   );
