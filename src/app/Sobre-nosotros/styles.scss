@@ -24,7 +24,7 @@
   text-transform: uppercase;
   color: #1a2b49;
   text-align: center; // Centra el texto
-  margin-top: 2rem; // Añade margen superior
+  // margin-top: 2rem; // Añade margen superior
 }
 
 .subtitleTitleSobreNosotros {
@@ -33,16 +33,16 @@
   letter-spacing: 1px;
   color: #63687a;
   text-align: center; // Centra el texto
-  margin: 0 auto 2rem; // Centra y da margen inferior
-  display: block;
+  // margin: 0 auto 2rem; // Centra y da margen inferior
+  // display: block;
 }
 
 .salemText {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
-  color: rgb(0, 0, 0);
-  text-align: center; // Centra el texto
-  margin: 1rem auto; // Añade margen superior e inferior
+  color: #63687a;
+  text-align: center;
+  margin: 1rem auto;
 }
 
 .divTitleFooter {
