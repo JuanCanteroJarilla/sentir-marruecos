@@ -7,7 +7,7 @@ function Contacto() {
   const [sent, setSent] = useState(false);
 
   // Cambia este ID por el tuyo de Formspree
-  const FORMSPREE_URL = "https://formspree.io/f/your_form_id";
+  const FORMSPREE_URL = "https://formspree.io/f/xqalpdnj";
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
