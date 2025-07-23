@@ -464,4 +464,85 @@ export const RouteInfo: { [key: string]: RouteDetail } = {
       "Recogida y traslado al aeropuerto",
     ],
   },
+  "marrakech y playas": {
+    id: 8,
+    description:
+      "Esta ruta de 5 días se centra en recorrer la costa atlántica de Marruecos, visitando igualmente la ciudad de Marrakech. Ofrece una visita a los sitios de mayor interés del atlántico, en especial la playa de Legzira, maravilla de la naturaleza.",
+    days: [
+      {
+        day: 1,
+        title: "Día 1: Marrakech",
+        description:
+          "Llegada a Marrakech. Día libre para visitar la ciudad: Jardines de la Menara, Minarete de la Koutobia, las Tumbas Saadianas, donde destaca su bóveda central de mármol de carrara, y el Palacio Bahía, Plaza de Jema el F’naa declarada “Patrimonio de la Humanidad”. Por la mañana vendedores de frutas, cestos de mimbre, dulces, etc. A la caída de la tarde todo se vuelve fascinante, cuando la plaza se ilumina con mil luces y todo parece mágico. Noche en Marrakech.",
+      },
+      {
+        day: 2,
+        title: "Día 2: Marrakech-Taroudant",
+        description:
+          "Salida de Marrakech hacia la ciudad de Taroudant. Cruzaremos el valle del Asif Ounila y el Tizi-n-Test, de 2.634 m, que ha sido desde siempre el paso natural más utilizado para cruzar el Alto Atlas. Es una ruta montañosa que nos ofrece unos paisajes maravillosos, por sus diferentes colores, así como pueblos prácticamente colgando en las laderas. Noche en Taroudant.",
+      },
+      {
+        day: 3,
+        title: "Día 3: Taroudant-Tafraoute-Legzira-Agadir",
+        description:
+          "Partiremos de Taroudant hacia el sur, pasando por Tafraoute, un pueblo comercial berebere rodeado de rocas graníticas de color rosado y con numerosas casas antiguas muy bien conservadas. Continuaremos hacia la playa de Legzira, una maravilla de la naturaleza con sus dos arcos de piedra, producidos por la erosión. Visita de la playa y continuar la ruta hacia Agadir, donde se hará noche.",
+      },
+      {
+        day: 4,
+        title: "Día 4: Agadir-Essaouira",
+        description:
+          "Visita de la ciudad de Agadir, antiguamente conocida como Santa Cruz del Cabo Aguer. Fue fundada por los portugueses sobre el 1500. Merece la pena recorrer la corniche o paseo marítimo así como el puerto y su zoco. Al atardecer salida hacia Essaouira donde se hará noche.",
+      },
+      {
+        day: 5,
+        title: "Día 5: Essaouira – Marrakech",
+        description:
+          "Visita de Essaouira, también conocida por la antigua denominación de Mogadur. Es una ciudad portuaria marroquí, situada en la costa occidental atlántica, al norte del cabo Sim. Es la capital de la provincia homónima, en la región de Marrakech-Tensift-Al Hauz. Con cerca de 70.000 habitantes, su medina o centro histórico está catalogado por la UNESCO como Patrimonio de la Humanidad desde 2001. Fue escenario de la serie Juego de Tronos gracias a sus murallas. Es habitual ver en sus playas la práctica de varias modalidades de deportes acuáticos, tipo kitesurf, o surf, gracias a las maravillosas condiciones meteorológicas y su viento presente todo el año. Partida hacia Marrakech y traslado al aeropuerto.",
+      },
+    ],
+    accommodation: [
+      "1 noche en Marrakech en Riad con desayuno",
+      "1 noche en Taroudant en hotel con media pensión",
+      "1 noche en Agadir en hotel con media pensión",
+      "1 noche en Essaouira en Riad con desayuno",
+      "Vehículo privado 4×4",
+      "Guía acompañante en español durante la duración completa del viaje",
+      "Traslados del aeropuerto",
+    ],
+  },
+  "marrakech y desierto": {
+    id: 9,
+    description:
+      "Esta ruta empieza y termina en Marrakech. Se ha compactado en 3 días para aquellos que quieran realizar una escapada bien aprovechada. Marrakech es la ciudad más cosmopolita de Marruecos y sorprende a muchos de sus visitantes. También ofrece la oportunidad de dormir en la arena del Sáhara y conocer la cultura berebere en el corazón del desierto.",
+    days: [
+      {
+        day: 1,
+        title: "Día 1: Marrakech-Ouarzazate-Boumalne Dades",
+        description:
+          "Salida en dirección Ouarzazate. Se cruzará la cordillera del Atlas, pasando por el punto más alto del país, conocido como el Puerto del Tichka. Haremos varias paradas en pueblos típicos bereberes y en zonas de vistas panorámicas, así como en una cooperativa de aceite de argán. El argán es un producto local del cual nos explicaran su proceso de realización y numerosos beneficios. Haremos parada en el ksar de Aït Ben Haddou, declarado Patrimonio de la Humanidad por la UNESCO donde se han filmado distintas películas como La Momia o El reino de los cielos y lugar de parada antiguamente de las caravanas para que los viajeros cambiasen los dromedarios por caballos y así poder cruzar las montañas.A mediodía llegaremos a Ouarzazate, la meca del  cine marroquí. Podremos visitar la kasbah de Taourirt, antigua residencia del pacha de Marrakech y una de las mejor conservadas de Marruecos. También aprovecharemos para ver el museo dedicado el cine, de las películas rodadas en la zona. Pasaremos por el valle del Dades, visitando los conocidos como ‘dedos del mono’, una formación rocosa que ha tomado formas curiosas. Se hará noche en el valle del Dades.",
+      },
+      {
+        day: 2,
+        title: "Día 2: Boumalne Dades-Gargantas del Todra-Merzouga",
+        description:
+          "Salida en dirección Merzouga, pasando por las Gargantas del Todra, donde podremos disfrutar de un bello paseo siguiendo el curso del río, observando sus pequeñas cascadas. Es una zona habitual de escaladores en busca de nuevas sensaciones. Pasaremos por el palmeral de Tinghir donde podremos ver el impresionante contraste de su frondosidad con el árido paisaje que lo rodea hasta llegar a la ciudad de Erfoud, paraíso para quienes busquen fósiles, pues antiguamente la zona estaba cubierta por agua. También se conoce por haberse encontrado varios huesos de dinosaurio. Desde Erfoud nos dirigiremos a Merzouga, en el desierto, desde donde cogeremos los dromedarios que nos adentraran en las dunas y pasaremos la noche en una haima típica berebere.",
+      },
+      {
+        day: 3,
+        title: "Día 3: Merzouga-Ouarzazate-Marrakech",
+        description:
+          "Vuelta al hotel para ducharse y desayunar. Salida hacia Ouarzazate.  Pasaremos por el valle del Draa, uno de los más grandes de Marruecos, y en donde existen numerosas kasbahs que servían para defender a la región, podremos pasear por su palmeral en distintas ocasiones y apreciar el cambio de temperatura que se produce al adentrarse en él. Comeremos en Ouarzazate y luego continuaremos por sinuosas carreteras con paradas en lugares con vistas panorámicas hasta Marrakech.",
+      },
+    ],
+    accommodation: [
+      "1 noche en el Valle del Dadès en hotel con media pensión",
+      "1 noche en Haimas en las dunas del Desierto con media pensión",
+      "Excursión en dromedario en el desierto",
+      "Tatuajes típicos de henna en el desierto",
+      "Fiesta tradicional con tambores en el desierto",
+      "Vehículo privado 4×4",
+      "Guía acompañante en español durante la duración completa del viaje",
+      "Traslados al aeropuerto",
+    ],
+  },
 };

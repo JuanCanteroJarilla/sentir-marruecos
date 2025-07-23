@@ -61,7 +61,7 @@ export default function RutaCliente({
             <div
               id={`accordion-content-${day.day}`}
               className={`overflow-hidden transition-all duration-300 ${
-                openIndex === idx ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+                openIndex === idx ? "max-h-[9999px] opacity-100" : "max-h-0 opacity-0"
               } bg-gray-50 px-4`}
             >
               <div className="py-4 text-gray-600 dayDescription tracking-wide">
