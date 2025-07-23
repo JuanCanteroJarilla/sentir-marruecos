@@ -57,7 +57,7 @@ function Yoga() {
               </p>
             </li>
             <li className="list-none">
-              <div className="flex justify-center w-full reservation-btn-wrapper mt-10 sm:mt-10">
+              <div className="flex justify-center w-full reservation-btn-wrapper mt-10 mb-5 sm:mt-10">
                 <ReservationButton text="¡Hola! Me gustaría reservar una experiencia de yoga" />
               </div>
             </li>
