@@ -45,7 +45,6 @@ function Amedida() {
               <ReservationButton
                 text="¡Hola! Estoy interesado en diseñar un viaje a medida con Sentir Marruecos."
                 wspText="¡Hola! Estoy interesado en diseñar un viaje a medida con Sentir Marruecos."
-                buttonText="¡CONTACTA CON NOSOTROS!"
               />
             </div>
           </div>

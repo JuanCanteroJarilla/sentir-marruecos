@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://sentirmarruecos.es
+
+# Sitemaps
+Sitemap: https://sentirmarruecos.es/sitemap.xml
