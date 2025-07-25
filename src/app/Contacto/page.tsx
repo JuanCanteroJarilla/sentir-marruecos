@@ -1,7 +1,6 @@
 "use client";
 import "./styles.scss";
 import { useRef, useState } from "react";
-import { FaWhatsapp } from "react-icons/fa";
 import ReservationButton from "../components/reservationButton/button";
 function Contacto() {
   const formRef = useRef<HTMLFormElement>(null);

@@ -261,7 +261,7 @@ const Header = ({}) => {
         <div className="social-links hidden md:block">
           <ul className="flex list-none gap-4">
             <li>
-              <Link className="social" href="">
+              <Link className="social" href="https://www.instagram.com/sentir_marruecos_viajes/">
                 <FaInstagram />
               </Link>
             </li>
