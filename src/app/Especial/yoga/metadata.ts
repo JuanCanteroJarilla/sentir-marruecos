@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "viajes de yoga",
     "experiencias de yoga",
     "yoga desierto",
-    "yoga naturaleza Marruecos"
+    "yoga naturaleza Marruecos",
   ],
   openGraph: {
     title: "Yoga en Marruecos | Retiros personalizados | Sentir Marruecos",
@@ -29,3 +29,5 @@ export const metadata: Metadata = {
     ],
     locale: "es_ES",
     type: "website",
+  },
+};

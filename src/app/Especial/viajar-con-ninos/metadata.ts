@@ -10,10 +10,11 @@ export const metadata: Metadata = {
     "actividades para niños Marruecos",
     "aventura en familia Marruecos",
     "turismo familiar Marruecos",
-    "experiencias con niños Marruecos"
+    "experiencias con niños Marruecos",
   ],
   openGraph: {
-    title: "Viajar con niños a Marruecos | Viajes en familia | Sentir Marruecos",
+    title:
+      "Viajar con niños a Marruecos | Viajes en familia | Sentir Marruecos",
     description:
       "Organizamos viajes a Marruecos para familias con niños: itinerarios flexibles, actividades educativas, seguridad y diversión para grandes y pequeños.",
     url: "https://sentirmarruecos.es/Especial/viajar-con-ninos",
@@ -29,3 +30,4 @@ export const metadata: Metadata = {
     locale: "es_ES",
     type: "website",
   },
+};
