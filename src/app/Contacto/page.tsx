@@ -2,6 +2,7 @@
 import "./styles.scss";
 import { useRef, useState } from "react";
 import { FaWhatsapp } from "react-icons/fa";
+import ReservationButton from "../components/reservationButton/button";
 function Contacto() {
   const formRef = useRef<HTMLFormElement>(null);
   const [sent, setSent] = useState(false);
@@ -48,12 +49,7 @@ function Contacto() {
             para que vivas la magia de este país como nunca antes.
           </p>
           <div className="flex justify-center">
-            <a href="#formulario">
-              <button className="flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe57] text-white font-bold py-3 px-8 rounded-full transition">
-                <FaWhatsapp size={22} />
-                haz clic aquí
-              </button>
-            </a>
+            <ReservationButton text="¡Hola! Me gustaría reservar una experiencia" />
           </div>
         </div>
       </div>
