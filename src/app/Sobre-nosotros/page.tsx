@@ -51,7 +51,7 @@ function SobreNosotros() {
           </p>
         </div>
         <p className="salemText px-4 lg:px-18 pt-8 font-extrabold">
-          <span>Te invitamos a vivir esta aventura con nosotros.</span> A
+          <span>Te invitamos a vivir esta aventura con nosotros.</span>
           descubrir la magia de Marruecos, sus costumbres, su historia y la
           belleza de sus paisajes. Queremos que cada momento se convierta en un
           recuerdo inolvidable.
