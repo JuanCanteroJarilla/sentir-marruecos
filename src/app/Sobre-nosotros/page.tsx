@@ -14,15 +14,17 @@ function SobreNosotros() {
             amor por la cultura y las tradiciones de nuestro país.
           </p>
         </div>
-        <div className="salemText pl-18 pr-18 pt-8 flex flex-row items-center justify-center mt-12">
-          <Image
-            src={"/images/salem.png"}
-            alt={`Rutas`}
-            width={950}
-            height={348}
-            className="rounded-[3rem] w-full h-full object-cover"
-          />
-          <p className="pl-8 2xl:text-[1.2rem] lg:text-[1rem]">
+        <div className="salemText px-4 lg:px-18 pt-8 flex flex-col lg:flex-row items-center justify-center mt-12 gap-6 lg:gap-0">
+          <div className="w-full lg:w-2/5 flex-shrink-0">
+            <Image
+              src={"/images/salem.png"}
+              alt={`Rutas`}
+              width={950}
+              height={348}
+              className="rounded-[3rem] w-full h-auto object-cover max-w-sm mx-auto lg:max-w-none lg:mx-0"
+            />
+          </div>
+          <p className="lg:pl-8 2xl:text-[1.2rem] lg:text-[1rem] text-sm leading-relaxed">
             Soy Salem, un bereber del desierto de Merzouga. Nací y crecí en el
             corazón del Sáhara, en una familia nómada que ha recorrido sus dunas
             durante generaciones. Mi infancia transcurrió entre caravanas de
@@ -48,7 +50,7 @@ function SobreNosotros() {
             inolvidable. ¡Bienvenidos a Sentir Marruecos Viajes!
           </p>
         </div>
-        <p className="salemText pl-18 pr-18 pt-8 font-extrabold">
+        <p className="salemText px-4 lg:px-18 pt-8 font-extrabold">
           <span>Te invitamos a vivir esta aventura con nosotros.</span> A
           descubrir la magia de Marruecos, sus costumbres, su historia y la
           belleza de sus paisajes. Queremos que cada momento se convierta en un
