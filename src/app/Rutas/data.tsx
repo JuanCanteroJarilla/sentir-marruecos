@@ -545,4 +545,70 @@ export const RouteInfo: { [key: string]: RouteDetail } = {
       "Traslados al aeropuerto",
     ],
   },
+  "desierto y essaouira": {
+    id: 10,
+    description:
+      "Ruta totalmente personalizada por Marruecos de 7 días, ofrece grandes contrastes al viajero. De un lado le permite conocer la ciudad de Marrakech en todo su esplendor, pero también la ciudad de Essaouira en la costa Atlántica, perdiéndose por las callejuelas de su zoco, lugar de filmación de la serie Juego de Tronos. Todo ello además de una travesía por la cordillera del Atlas para llegar a otro paisaje bien distinto. El desierto del Sáhara, en las dunas de Erg Chebbi, para disfrutar de su tranquilidad y de una cena bajo las estrellas, conociendo la cultura berebere de primera mano, uno de los platos fuertes del viaje.",
+    days: [
+      {
+        day: 1,
+        title:
+          "Día 1: Aeropuerto de Menara Marrakech – Riad en el centro de la ciudad",
+        description:
+          "Os recogemos en el aeropuerto de Menara Marrakech en función de la hora de vuestra llegada y os llevamos al Riad en el centro de la cuidad, día libre para descansar y, ya que el Riad queda en el centro de la medina, tenéis la posibilidad de hacer un pequeña visita por la medina y cenar en la famosa plaza de Marrakech, “Jamaa El Fnaa”. Alojamiento con desayuno en el Riad.",
+      },
+      {
+        day: 2,
+        title:
+          "Día 2: Marrakech – Alto Atlas – Telouat – Ait ben haddou – Ouarzazate",
+        description:
+          "Recogida a las 09:00 en el Riad con vehí­culo privado en dirección Ouarzazate cruzando las montañas del Alto Atlas por el puerto de Tizi Ntichka, a 2.260m de altitud, es el punto mas alto del país, donde disfrutaremos de unos paisajes increíbles y donde haremos varias paradas para sacar fotos a los pueblos bereberes. Después nos desviaremos por una pequeña carretera disfrutando de los bonitos paisajes que la rodean hasta llegar a la Kasbah de Telouat, visitamos la Kasbah aprovecharemos de una comida típica del pueblo. Por la tarde continuaremos por el Valle de Ounila entre pueblos bereberes donde viven familias en casas de adobe perdidas en las montañas hasta llegar al pueblo fortificado de Ait Ben Haddou, donde visitaremos su famosa Kasbah (declarada patrimonio de la humanidad por la UNESCO en 1986). En este espectacular marco se han rodado varias películas famosas como Gladiator, Obelix, Sahara con Penélope Cruz, etc. Después de visitar la Kasbah saldremos hacia Ouarzazate considerada la gran puerta del desierto. Cena y alojamiento en hotel.",
+      },
+      {
+        day: 3,
+        title:
+          "Día 3: Ouarzazate – Valle del Draa – Desierto de Merzouga – Noche en Haimas nómadas",
+        description:
+          "Después del desayuno partiremos hacia el famoso Valle del Draa, donde veremos uno de los ríos más largos de Marruecos. Realizaremos diversas paradas para contemplar las preciosas kasbahs de adobe y aldeas bereberes que salpican la ruta y las maravillas del Valle del Draa. Después del almuerzo en Nkob o Alnif, seguiremos  por una ruta de 2 horas hasta llegar a las impresionantes dunas de Merzouga. Desierto de dunas de finísima arena donde cambiaremos el coche por otros de tracción animal, dromedarios, para entrar en el corazón de las dunas y contemplar una puesta de sol inolvidable. Llegaremos con los dromedarios al campamento donde nos alojaremos en Haimas, tiendas confeccionadas con pelo de dromedario, como las que utilizan los nómadas del desierto. Cena y noche en Haimas en el corazón del desierto bajo un espectacular manto de estrellas.",
+      },
+      {
+        day: 4,
+        title:
+          "Día 4: Desierto de Merzouga – Mercado de Rissani – Gargantas del Todra – Valle del Dadès",
+        description:
+          "Después de un rico desayuno, nos toca despedirse del desierto y partiremos hacia Rissani donde visitaremos su mercado  (si tenemos suerte y es uno de los días de mercado: martes, jueves o domingo). Seguiremos el camino hacia Erfoud donde también hay posibilidad de visitar la fábrica de mármol fosilizado antes de continuar hacia los palmerales de Touroug y Tinjdad. 1 hora más tarde llegaremos a uno de los puntos más fuertes del Alto Atlas: Las Gargantas del Todra. El cauce del rí­o Todra ha formado un desfiladero de paredes verticales de enormes proporciones y de gran belleza; es el paraí­so de los escaladores y un lugar único. Almuerzo en el sitio y una caminata de media hora es recomendable para ver y disfrutar con detalle las Gargantas. Por la tarde continuaremos hacia el Valle del Dadès, también conocido por el Valle de higos, pasando por Boumalne Dadès pararemos en los “dedos de mono”. Cena y noche en las Gargantas del Dadès.",
+      },
+      {
+        day: 5,
+        title:
+          "Día 5: Valle del Dadès – Valle de las Rosas – Palmeral de Skoura – Alto Atlas – Marrakech",
+        description:
+          "Tras desayunar, podremos disfrutar de una de las mejores vistas del Valle del Dadès. Lo haremos desde uno de los lugares más estratégicos que nos ofrecen las montañas. Desde allí podremos observar la cantidad de kasbah que hay y lo pintoresco de cada una de ellas,  después salida hacia una carretera salpicada de diversas Kasbah de gran interés. Tras varias paradas para disfrutar de la ruta de las Mil Kasbah, el Valle de las Rosas y el gran palmeral de Skoura, llegaremos a Ouarzazate y visitaremos la kasbah de Taourirt, antigua residencia del Glaoui o pachá de Marrakech, los estudios del Cine y Museo del Cine, si es de su interés. Almuerzo en el pueblo y por la tarde partiremos de nuevo hacia Marrakech cruzando el puerto de montaña de Tizi Ntichka con paradas para hacer fotos. Aquí­ dejaremos atrás el paisaje lunar que dará paso a los predominantes colores verdes, ocres, etc. Llegada a Marrakech sobre las 18h más o menos, traslado al riad para descansar y recuperar las fuerzas.",
+      },
+      {
+        day: 6,
+        title: "Día 6: Marrakech – Essaouira",
+        description:
+          "Tras el desayuno en el riad en Marrakech vamos dirección a la cuidad Essaouira o la perla del Atlántico, esta ciudad declarada patrimonio de la humanidad, mantiene el encanto y la autenticidad de una tierra perdida en el tiempo. Essaouira se ha convertido en una etapa imprescindible en el viaje a Marruecos. Al explorador aventurero le va a fascinar la amabilidad hospitalaria de la gente de esta ciudad, que no es de extrañar ya que viven desde hace siglos en la encrucijada de culturas, civilizaciones y religiones. Tarde libre para pasear por la medina. Alojamiento en Essaouira.",
+      },
+      {
+        day: 7,
+        title: "Día 7: Essaouira – Marrakech – Aeropuerto",
+        description:
+          "Tras el desayuno en el riad, puede usted hacer una caminata por la medina, visitar el puerto, y después disfrutar de un almuerzo de pescado fresco a la plancha en los restaurantes locales del puerto. Si lo desea podemos contratar un guía local que le realizará un tour por la ciudad, aunque recomendamos hacer la visita por su cuenta tranquilamente, porque es la mejor forma para visitar ese pequeño pueblo. Por la tarde, regreso a Marrakech y si les apetece, podemos hacer una parada en una cooperativa femenina para ver la demostración de las mujeres locales preparando el aceite de argán, traslado al aeropuerto según la hora de vuestro vuelo y fin de nuestro servicio.",
+      },
+    ],
+    accommodation: [
+      "2 noches en Marrakech en Riad con desayuno",
+      "1 noche en Ouarzazate en hotel en media pensión (cena y desayuno)",
+      "1 noche en Haimas en las dunas del Desierto con media pensión",
+      "1 noche en Essaouira en Riad con desayuno",
+      "Excursión en dromedario en el desierto",
+      "Tatuajes típicos de henna en el desierto",
+      "Fiesta tradicional con tambores en el desierto",
+      "Vehículo privado 4×4",
+      "Guía acompañante en español durante la duración completa del viaje",
+      "Traslados al aeropuerto",
+    ],
+  },
 };
